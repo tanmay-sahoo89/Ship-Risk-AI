@@ -27,10 +27,6 @@ node_modules/
 dist/
 .firebase/
 .firebaserc
-.env.local
-
-# NOTE: serviceAccountKey.json IS TRACKED in this testing project for easy sharing with teammates
-# For production, move serviceAccountKey.json to .env and add to .gitignore
 
 # VS Code Copilot
 .claude/
