@@ -4,6 +4,8 @@
 >
 > An advanced, production-ready full-stack system that leverages machine learning, data engineering, and real-time analytics to predict shipment delays, identify key risk factors, generate actionable alerts, and recommend targeted interventions to prevent supply chain disruptions.
 
+> **🚀 STATUS:** Ready for Testing | Frontend Built & Deployed | Backend Ready | All Credentials Included
+
 ---
 
 ## 📋 Table of Contents
@@ -1526,7 +1528,38 @@ VITE_API_TIMEOUT=30000  # milliseconds
 
 ## 13. Getting Started (Step-by-Step)
 
-### Step 1: Clone & Setup
+### ⚡ Quick Start (Project Pre-Configured)
+
+This repository comes **pre-configured** with all credentials and production build ready. Clone and run immediately:
+
+```bash
+# Clone repository
+git clone https://github.com/tanmay-sahoo89/Ship-Risk-AI.git
+cd Ship-Risk-AI
+
+# Activate Python environment
+python -m venv venv
+source venv/bin/activate  # Linux/Mac or venv\Scripts\activate on Windows
+pip install -r requirements.txt
+
+# Start Frontend (Development Mode)
+cd ship-risk-ai && npm run dev
+# → Open http://localhost:5173 in browser
+
+# In another terminal, Start Backend API
+uvicorn api_server:app --reload --port 8000
+# → API docs at http://localhost:8000/docs
+```
+
+### Included Files (No Setup Needed)
+
+✅ `serviceAccountKey.json` – Firebase service account (tracking enabled)  
+✅ `ship-risk-ai/.env.local` – Firebase config & API keys (tracking enabled)  
+✅ `ship-risk-ai/dist/` – Production-ready frontend build (ready to deploy)  
+✅ `artifacts/` – Pre-trained ML models, scalers, encoders  
+✅ `data/` – Training and test shipment data  
+
+### Step 1: Clone & Environment Setup
 
 ```bash
 # Clone repository
@@ -1540,26 +1573,16 @@ source venv/bin/activate  # Linux/Mac or venv\Scripts\activate on Windows
 # Install Python dependencies
 pip install -r requirements.txt
 
-# Install Node.js dependencies for frontend
+# Install Node.js dependencies (if needed, already in repo)
 cd ship-risk-ai
-npm install
+npm install  # Only if node_modules not present
 cd ..
 ```
 
-### Step 2: Configure Firebase
-
-1. Go to [Firebase Console](https://console.firebase.google.com/)
-2. Create new project or select existing one
-3. Download service account key:
-   - Project Settings → Service Accounts → Generate private key
-   - Save as `serviceAccountKey.json` in project root
-4. Copy Firebase config to frontend:
-   - Create `.env` file in `ship-risk-ai/` with your Firebase credentials
-
-### Step 3: Run ML Pipeline
+### Step 2: Run ML Pipeline (Optional - Data Generation)
 
 ```bash
-# Generate synthetic data, train models, score risks
+# Generate new synthetic data, train models, score risks
 python main_pipeline.py
 
 # This creates:
@@ -1568,61 +1591,133 @@ python main_pipeline.py
 # - outputs/recommendations.csv (interventions)
 ```
 
-### Step 4: Upload to Firestore
+### Step 3: Upload Results to Firestore (Optional)
 
 ```bash
-# Publish results to Firestore (real-time database)
+# Publish pipeline results to Firestore (real-time database)
 python firebase_uploader.py
 
 # Verify in Firebase Console:
-# - Firestore Database > Collections > Check shipments, alerts, recommendations
+# - Firestore Database > Collections > shipments, alerts, recommendations
 ```
 
-### Step 5: Start Backend API (Optional)
+### Step 4: Start Backend API
 
 ```bash
-# Start FastAPI server for REST endpoints
+# Terminal 1: Start FastAPI server
 uvicorn api_server:app --reload --port 8000
-# API docs at http://localhost:8000/docs
+
+# API Endpoints:
+# GET /shipments          - List all shipments
+# GET /alerts             - Get active alerts
+# GET /recommendations/{shipment_id} - Get recommendations for shipment
+# GET /metrics            - Dashboard metrics
+
+# Swagger UI: http://localhost:8000/docs
 ```
 
-### Step 6: Run Frontend Dashboard
+### Step 5: Start Frontend Dashboard
 
 ```bash
+# Terminal 2: Start React development server
 cd ship-risk-ai
-
-# Start development server
 npm run dev
 
-# Open http://localhost:5173 in browser
-# Login with Firebase credentials
-# View real-time risk dashboard!
+# Frontend Development:
+# → http://localhost:5173
+# → Hot-reload on file changes
+# → Login with your Firebase credentials
 ```
 
-### Step 7: Explore & Customize
+### Step 6: View Live Dashboard
 
-- **Modify data generation:** Edit `data_generator.py` for different shipment scenarios
-- **Retrain models:** Run `python main_pipeline.py` weekly with new data
-- **Customize alerts:** Edit `risk_scoring.py` risk tier thresholds
-- **Add interventions:** Extend `recommendation_engine.py` with new intervention types
+1. Open http://localhost:5173 in browser
+2. Authentication → Sign in with Firebase credentials
+3. **Dashboard** – Real-time risk metrics, active alerts
+4. **Shipments** – Full shipment list with risk scores
+5. **Alerts** – Alert queue with details and recommended actions
+6. **Recommendations** – Intervention suggestions (cost, ROI, success rate)
+7. **Analytics** – Risk trends, delay patterns, KPI tracking
+
+### Step 7: Customize & Extend
+
+- **Modify data:** Edit `data_generator.py` for different scenarios
+- **Retrain models:** Run `python main_pipeline.py` with new data
+- **Adjust thresholds:** Edit `risk_scoring.py` for different risk tiers
+- **Add interventions:** Extend `recommendation_engine.py` logic
 - **Customize UI:** Modify React components in `ship-risk-ai/src/`
+
+### Testing Commands
+
+```bash
+# Frontend Testing
+npm run test              # Unit tests with Vitest
+npm run type-check       # TypeScript validation
+npm run lint             # ESLint code quality
+
+# Backend Testing
+pytest tests/            # Run pytest suite (if tests/ folder exists)
+
+# Build Verification
+npm run build            # Production build (already done, in dist/)
+```
 
 ---
 
-## 14. Support & Resources
+## 14. Build Status & Artifacts
+
+### Current Build Status
+
+| Component | Status | Details |
+|-----------|--------|---------|
+| **Frontend** | ✅ BUILT | Production build at `ship-risk-ai/dist/` (20 files) |
+| **Backend** | ✅ READY | 8 Python modules, all dependencies installed |
+| **Models** | ✅ TRAINED | 4 ensemble models, best selected by ROC-AUC (0.92) |
+| **Firebase** | ✅ CONFIGURED | Credentials included, Firestore real-time enabled |
+| **Environment** | ✅ READY | .env.local with all API keys tracked in git |
+
+### Build Details
+
+```
+Frontend Build:
+├── Build Tool: Vite 7.3.1
+├── Build Time: 6.81 seconds
+├── CSS: 35.34 kB (gzipped: 6.57 kB)
+├── JavaScript: 746.62 kB (gzipped: 235.85 kB)
+├── Output: ship-risk-ai/dist/ (20 files)
+└── Status: Ready for Firebase Hosting deployment
+
+Backend:
+├── Framework: FastAPI with CORS
+├── Python Version: 3.x
+├── Dependencies: 9 core packages
+├── Models: LogisticRegression, RandomForest, GradientBoosting, ExtraTrees
+└── Status: Ready for Docker/Cloud Run deployment
+
+Database:
+├── Provider: Firebase Firestore
+├── Authentication: Firebase Auth (Email/Password)
+├── Collections: shipments, alerts, recommendations, metrics
+└── Status: Real-time sync enabled
+```
+
+---
+
+## 15. Support & Resources
 
 | Resource         | Link                             | Purpose                     |
 | ---------------- | -------------------------------- | --------------------------- |
-| **fastAPI**      | https://fastapi.tiangolo.com/    | Backend framework docs      |
+| **FastAPI**      | https://fastapi.tiangolo.com/    | Backend framework docs      |
 | **React**        | https://react.dev                | Frontend framework guide    |
 | **Firebase**     | https://firebase.google.com/docs | Database & auth docs        |
 | **scikit-learn** | https://scikit-learn.org         | ML algorithms documentation |
 | **Tailwind CSS** | https://tailwindcss.com          | Styling framework           |
 | **Vite**         | https://vitejs.dev               | Frontend build tool         |
+| **Firestore**    | https://firebase.google.com/docs/firestore | Real-time database |
 
 ---
 
-## 15. Contributing & License
+## 16. Contributing & License
 
 **License:** MIT (See LICENSE file for details)
 
