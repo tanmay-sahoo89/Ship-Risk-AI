@@ -1,0 +1,501 @@
+shipment_id,origin,destination,carrier,transport_mode,shipment_date,planned_eta,planned_transit_days,days_in_transit,shipment_status,package_weight_kg,num_stops,customs_clearance_flag,weather_condition,weather_severity_score,traffic_congestion_level,port_congestion_score,disruption_type,disruption_impact_score,carrier_reliability_score,historical_delay_rate,route_risk_score,delay_probability,is_delayed,actual_delay_hours
+SHP100000,Rotterdam,Sydney,UPS,Sea,2024-05-07,2024-06-05,29,27,Out for Delivery,1662.52,1,0,Heavy Rain,5.41,5,3,Port Strike,8.97,0.897,0.231,0.1,0.9778,1,33.4
+SHP100001,Dubai,Sydney,FedEx,Air,2024-05-02,2024-05-07,5,3,Out for Delivery,2114.26,1,0,Rain,2.08,2,9,Port Strike,8.57,0.922,0.395,0.42,1.0,1,82.2
+SHP100002,Mumbai,London,FedEx,Road,2023-01-18,2023-01-27,9,6,Customs Hold,3609.1,2,0,Rain,2.33,7,8,Equipment Failure,6.34,0.949,0.333,0.38,1.0,1,35.7
+SHP100003,Dubai,Singapore,DB Schenker,Rail,2024-10-28,2024-11-04,7,3,Delayed,611.27,2,1,Storm,8.05,5,4,Port Strike,8.77,0.872,0.128,0.15,0.8623,1,67.7
+SHP100004,Hamburg,Tokyo,FedEx,Rail,2023-11-16,2023-11-24,8,6,In Transit,3876.76,5,0,Storm,8.03,2,1,Port Strike,9.28,0.924,0.113,0.33,1.0,1,65.9
+SHP100005,Rotterdam,Singapore,Maersk,Sea,2024-07-06,2024-08-04,29,23,At Port,2401.97,2,1,Rain,1.51,6,1,Equipment Failure,5.68,0.843,0.028,0.33,0.8563,1,32.5
+SHP100006,Hamburg,Sydney,DB Schenker,Rail,2024-02-27,2024-03-05,7,4,Out for Delivery,4259.08,1,1,Fog,4.47,5,3,Equipment Failure,6.49,0.861,0.251,0.14,0.8015,1,66.5
+SHP100007,Shanghai,London,DB Schenker,Road,2024-08-01,2024-08-09,8,9,Customs Hold,1339.88,4,0,Rain,1.93,8,9,Traffic Jam,3.98,0.83,0.177,0.38,0.9863,1,30.1
+SHP100008,Hamburg,New York,Maersk,Rail,2024-08-28,2024-09-10,13,12,Customs Hold,137.54,4,0,Blizzard,8.57,4,5,Equipment Failure,6.32,0.798,0.115,0.39,1.0,1,53.6
+SHP100009,Los Angeles,Tokyo,DB Schenker,Sea,2024-01-24,2024-02-19,26,2,At Port,4112.61,2,1,Blizzard,8.52,5,3,Port Strike,8.59,0.859,0.077,0.25,0.9323,1,46.3
+SHP100010,Shanghai,London,DB Schenker,Air,2023-09-26,2023-09-30,4,6,Delayed,304.84,3,1,Rain,1.95,1,5,Port Strike,9.47,0.856,0.305,0.21,1.0,1,8.2
+SHP100011,Shanghai,Tokyo,DHL,Rail,2023-02-10,2023-02-18,8,0,Out for Delivery,2124.12,1,1,Clear,0.0,4,8,Traffic Jam,4.06,0.881,0.056,0.38,0.7314,1,19.1
+SHP100012,Hamburg,Singapore,FedEx,Rail,2023-05-11,2023-05-21,10,3,Delayed,1375.07,4,1,Fog,3.99,5,6,Port Strike,9.04,0.971,0.238,0.26,0.8717,1,23.6
+SHP100013,Mumbai,Sydney,UPS,Road,2023-06-22,2023-06-26,4,1,At Port,770.7,3,0,Blizzard,9.17,9,2,Traffic Jam,4.3,0.904,0.021,0.3,0.8797,1,77.4
+SHP100014,Hamburg,Chicago,FedEx,Rail,2023-05-16,2023-05-30,14,7,In Transit,2232.13,5,0,Storm,8.11,4,2,Port Strike,9.25,0.943,0.206,0.28,0.976,1,78.1
+SHP100015,Mumbai,Sydney,UPS,Rail,2024-10-04,2024-10-14,10,5,At Port,1041.12,1,0,Rain,2.23,4,8,Natural Disaster,9.92,0.925,0.36,0.3,0.9831,1,75.9
+SHP100016,Dubai,Sydney,Maersk,Road,2023-04-04,2023-04-09,5,9,In Transit,997.51,3,0,Rain,1.82,8,10,Natural Disaster,10.03,0.835,0.371,0.41,1.0,1,55.7
+SHP100017,Rotterdam,New York,XPO Logistics,Road,2023-08-03,2023-08-06,3,1,At Port,4514.7,5,0,Snow,6.23,8,6,Port Strike,9.34,0.839,0.029,0.37,1.0,1,34.1
+SHP100018,Los Angeles,New York,UPS,Sea,2023-11-25,2023-12-14,19,19,Out for Delivery,3050.99,2,0,Storm,7.64,6,4,Natural Disaster,9.67,0.892,0.253,0.43,1.0,1,78.1
+SHP100019,Los Angeles,London,Maersk,Rail,2023-01-27,2023-02-11,15,13,Delayed,1897.73,2,0,Storm,8.12,5,7,Natural Disaster,9.98,0.854,0.322,0.28,1.0,1,52.0
+SHP100020,Shanghai,New York,FedEx,Sea,2024-07-11,2024-07-30,19,14,Customs Hold,2249.62,4,0,Fog,4.42,4,2,None,0.0,0.897,0.311,0.35,0.8569,1,12.7
+SHP100021,Mumbai,Chicago,DHL,Rail,2023-10-27,2023-11-06,10,8,At Port,3872.35,5,0,Rain,1.53,4,9,Traffic Jam,4.48,0.889,0.369,0.24,0.8722,1,65.0
+SHP100022,Dubai,New York,DB Schenker,Air,2023-06-08,2023-06-12,4,0,Delayed,731.23,4,0,Fog,4.49,4,1,Equipment Failure,6.36,0.862,0.149,0.1,0.6665,1,57.0
+SHP100023,Shanghai,Singapore,UPS,Road,2024-02-08,2024-02-15,7,8,Customs Hold,4553.22,3,1,Blizzard,9.38,6,6,Port Strike,8.68,0.888,0.258,0.31,1.0,1,69.5
+SHP100024,Mumbai,Chicago,Maersk,Rail,2023-06-05,2023-06-17,12,13,At Port,4565.61,4,0,Snow,5.93,4,1,Port Strike,9.07,0.849,0.1,0.15,1.0,1,53.9
+SHP100025,Hamburg,Singapore,DHL,Road,2024-11-26,2024-12-06,10,5,Out for Delivery,4832.33,4,1,Rain,1.81,8,8,Port Strike,8.99,0.895,0.312,0.16,0.8938,1,65.5
+SHP100026,Mumbai,London,DHL,Air,2023-06-02,2023-06-05,3,3,Delayed,2152.52,4,0,Storm,8.41,3,6,Traffic Jam,3.91,0.865,0.021,0.35,0.8821,1,44.5
+SHP100027,Rotterdam,Sydney,UPS,Sea,2023-06-15,2023-07-08,23,21,At Port,3744.17,3,1,Fog,4.06,4,5,Port Strike,9.0,0.913,0.137,0.13,0.7657,1,4.6
+SHP100028,Hamburg,Chicago,DHL,Sea,2023-09-04,2023-10-01,27,8,Customs Hold,3833.16,3,0,Snow,5.76,5,5,None,0.0,0.905,0.14,0.14,0.5898,1,27.3
+SHP100029,Shanghai,London,DB Schenker,Air,2023-09-10,2023-09-12,2,4,In Transit,3967.49,1,0,Blizzard,9.39,4,2,Port Strike,8.67,0.864,0.274,0.34,1.0,1,75.4
+SHP100030,Rotterdam,Singapore,UPS,Sea,2023-08-26,2023-09-20,25,22,Delayed,4140.73,2,0,Snow,6.49,6,2,Natural Disaster,10.12,0.922,0.186,0.3,1.0,1,27.2
+SHP100031,Hamburg,Chicago,XPO Logistics,Rail,2023-06-12,2023-06-19,7,1,Out for Delivery,1387.98,2,0,Blizzard,9.49,5,6,None,0.05,0.83,0.203,0.18,0.8346,1,50.2
+SHP100032,Dubai,New York,XPO Logistics,Rail,2024-02-17,2024-02-29,12,16,At Port,3662.71,3,1,Heavy Rain,4.68,2,7,Traffic Jam,3.74,0.86,0.189,0.2,0.8538,1,58.2
+SHP100033,Dubai,Chicago,UPS,Sea,2023-03-28,2023-04-15,18,5,In Transit,148.14,3,1,Rain,2.16,4,2,Equipment Failure,5.62,0.906,0.159,0.42,0.906,1,34.1
+SHP100034,Shanghai,New York,Maersk,Rail,2024-04-03,2024-04-18,15,4,Out for Delivery,2682.26,4,0,Storm,8.12,5,4,Port Strike,8.89,0.851,0.112,0.35,1.0,1,15.8
+SHP100035,Shanghai,Tokyo,FedEx,Road,2023-01-25,2023-01-30,5,6,Out for Delivery,3079.78,4,0,Fog,3.98,6,1,None,0.47,0.883,0.216,0.28,0.789,1,73.0
+SHP100036,Mumbai,Sydney,FedEx,Air,2024-08-21,2024-08-24,3,7,Customs Hold,1366.9,1,0,Snow,6.0,3,9,Port Strike,8.8,0.93,0.387,0.3,1.0,1,30.0
+SHP100037,Dubai,Sydney,Maersk,Rail,2023-07-28,2023-08-07,10,15,Delayed,2416.34,4,0,Snow,5.98,4,9,Traffic Jam,4.45,0.864,0.392,0.25,1.0,1,63.0
+SHP100038,Hamburg,Sydney,FedEx,Air,2024-09-10,2024-09-14,4,1,In Transit,4148.51,1,1,Clear,0.0,4,1,Traffic Jam,3.53,0.934,0.085,0.28,0.6397,1,7.1
+SHP100039,Shanghai,London,Maersk,Sea,2023-10-11,2023-11-15,35,9,Delayed,2612.84,5,0,Blizzard,8.99,6,8,Traffic Jam,4.17,0.835,0.151,0.11,0.8682,1,27.7
+SHP100040,Los Angeles,Chicago,Maersk,Air,2023-10-01,2023-10-05,4,5,Customs Hold,2618.37,2,0,Heavy Rain,4.52,4,10,None,0.07,0.827,0.035,0.1,0.5807,1,12.9
+SHP100041,Shanghai,Singapore,UPS,Air,2023-10-11,2023-10-16,5,6,Delayed,3956.05,5,0,Storm,7.86,4,6,Natural Disaster,10.05,0.955,0.336,0.2,1.0,1,29.2
+SHP100042,Los Angeles,Chicago,XPO Logistics,Rail,2023-10-29,2023-11-05,7,3,In Transit,4511.77,2,1,Storm,7.78,4,1,None,0.0,0.82,0.371,0.31,0.9656,1,90.1
+SHP100043,Shanghai,New York,XPO Logistics,Rail,2024-11-20,2024-12-04,14,1,At Port,964.3,5,0,Heavy Rain,5.15,2,1,Port Strike,9.36,0.794,0.187,0.35,1.0,1,42.3
+SHP100044,Dubai,Chicago,UPS,Road,2023-03-27,2023-04-04,8,9,In Transit,2725.62,4,1,Rain,1.77,6,6,Natural Disaster,10.37,0.924,0.088,0.45,1.0,1,60.0
+SHP100045,Hamburg,Chicago,UPS,Sea,2024-11-12,2024-12-01,19,3,At Port,178.3,2,1,Snow,5.83,5,7,Equipment Failure,5.65,0.924,0.382,0.29,0.9442,1,47.3
+SHP100046,Rotterdam,London,DHL,Air,2023-10-02,2023-10-07,5,6,At Port,2970.02,3,0,Blizzard,8.5,4,5,Natural Disaster,10.29,0.862,0.1,0.42,1.0,1,72.8
+SHP100047,Rotterdam,Sydney,DHL,Road,2023-05-13,2023-05-16,3,8,At Port,4075.65,5,0,Heavy Rain,5.1,9,4,Port Strike,9.46,0.868,0.311,0.35,1.0,1,73.4
+SHP100048,Rotterdam,Singapore,DHL,Road,2023-02-04,2023-02-07,3,2,At Port,2734.45,3,0,Storm,7.58,8,8,Natural Disaster,9.63,0.904,0.214,0.44,1.0,1,71.1
+SHP100049,Hamburg,Sydney,DHL,Road,2023-02-23,2023-03-01,6,3,Out for Delivery,852.6,5,0,Blizzard,9.04,8,9,Natural Disaster,10.18,0.859,0.168,0.14,1.0,1,95.3
+SHP100050,Los Angeles,Singapore,DHL,Road,2024-07-10,2024-07-17,7,2,At Port,3391.01,5,0,Fog,4.15,9,3,Port Strike,9.21,0.899,0.048,0.29,0.9116,1,5.6
+SHP100051,Rotterdam,New York,UPS,Road,2023-06-22,2023-06-29,7,5,At Port,453.64,4,1,Heavy Rain,4.6,8,4,Natural Disaster,10.02,0.908,0.197,0.25,1.0,1,78.5
+SHP100052,Los Angeles,New York,DHL,Sea,2023-02-07,2023-03-04,25,9,Out for Delivery,512.82,4,1,Heavy Rain,5.37,3,1,Traffic Jam,3.54,0.871,0.286,0.41,0.9426,1,38.6
+SHP100053,Rotterdam,Tokyo,UPS,Road,2023-04-24,2023-04-29,5,10,In Transit,2174.49,1,0,Rain,2.37,7,9,Traffic Jam,4.31,0.9,0.386,0.2,1.0,1,26.7
+SHP100054,Dubai,London,Maersk,Air,2024-07-29,2024-08-03,5,2,Delayed,1943.81,4,0,Storm,7.61,2,1,Port Strike,9.3,0.851,0.176,0.3,1.0,1,18.1
+SHP100055,Dubai,Chicago,UPS,Road,2024-09-24,2024-10-03,9,13,In Transit,1565.04,5,0,Snow,5.78,6,3,Port Strike,9.18,0.89,0.137,0.15,0.9973,1,34.3
+SHP100056,Los Angeles,London,DB Schenker,Road,2023-12-25,2023-12-28,3,8,Out for Delivery,88.58,4,0,Fog,3.92,6,6,Natural Disaster,9.83,0.844,0.202,0.23,1.0,1,71.8
+SHP100057,Los Angeles,London,DB Schenker,Rail,2024-10-09,2024-10-20,11,12,Customs Hold,545.9,3,0,Snow,6.31,2,10,None,0.0,0.887,0.127,0.29,0.7802,1,5.1
+SHP100058,Dubai,New York,DB Schenker,Road,2024-03-03,2024-03-10,7,8,At Port,3056.86,2,0,Blizzard,8.87,7,3,Traffic Jam,4.29,0.885,0.091,0.41,1.0,1,70.0
+SHP100059,Mumbai,Singapore,XPO Logistics,Air,2023-03-07,2023-03-10,3,3,Out for Delivery,4218.27,3,0,Snow,5.69,3,2,Port Strike,9.47,0.829,0.194,0.23,1.0,1,73.6
+SHP100060,Hamburg,London,UPS,Sea,2024-06-08,2024-07-08,30,19,Delayed,360.95,2,0,Clear,0.0,4,5,Equipment Failure,6.15,0.887,0.044,0.1,0.5035,1,45.4
+SHP100061,Hamburg,New York,DHL,Air,2024-04-29,2024-05-02,3,4,Customs Hold,3968.01,4,0,Blizzard,8.94,1,2,Equipment Failure,5.99,0.878,0.144,0.27,1.0,1,13.3
+SHP100062,Los Angeles,New York,FedEx,Rail,2024-11-01,2024-11-10,9,14,Customs Hold,520.83,5,0,Snow,5.72,4,2,Port Strike,8.55,0.957,0.087,0.32,1.0,1,88.8
+SHP100063,Dubai,London,FedEx,Air,2024-08-17,2024-08-21,4,7,In Transit,4075.31,5,0,Snow,6.02,2,9,Natural Disaster,10.49,0.943,0.206,0.15,0.9724,1,28.3
+SHP100064,Dubai,Singapore,DHL,Air,2024-08-27,2024-09-01,5,1,Customs Hold,2304.31,1,1,Rain,2.16,3,3,Natural Disaster,10.06,0.894,0.342,0.15,0.8692,1,16.0
+SHP100065,Mumbai,New York,Maersk,Rail,2024-10-08,2024-10-19,11,8,Customs Hold,3491.87,4,0,Clear,0.45,5,1,Natural Disaster,9.9,0.876,0.395,0.14,0.9399,1,51.1
+SHP100066,Dubai,London,DHL,Air,2024-10-13,2024-10-15,2,4,Delayed,3569.23,3,0,Heavy Rain,5.33,3,6,Natural Disaster,9.95,0.882,0.045,0.14,0.9445,1,10.9
+SHP100067,Rotterdam,London,DB Schenker,Air,2023-07-12,2023-07-16,4,7,Out for Delivery,637.19,4,1,Heavy Rain,5.24,2,8,Natural Disaster,9.7,0.876,0.075,0.29,1.0,1,75.2
+SHP100068,Rotterdam,Sydney,Maersk,Rail,2024-10-10,2024-10-22,12,8,Delayed,3618.46,1,1,Fog,4.24,2,4,Natural Disaster,9.54,0.871,0.046,0.3,0.9181,1,84.9
+SHP100069,Shanghai,New York,UPS,Rail,2023-07-17,2023-07-27,10,14,Customs Hold,4252.4,3,0,Blizzard,9.08,5,4,None,0.0,0.882,0.044,0.35,0.8673,1,33.2
+SHP100070,Los Angeles,Tokyo,Maersk,Rail,2024-04-25,2024-05-06,11,12,At Port,1155.48,3,1,Fog,4.41,2,10,None,0.21,0.882,0.183,0.25,0.7166,1,44.0
+SHP100071,Los Angeles,London,UPS,Sea,2024-08-30,2024-09-24,25,13,Delayed,3593.61,1,0,Storm,7.72,4,5,None,0.0,0.898,0.182,0.16,0.6347,1,59.8
+SHP100072,Hamburg,Chicago,XPO Logistics,Sea,2023-04-14,2023-05-11,27,12,Out for Delivery,3982.46,5,0,Storm,7.54,4,3,None,0.2,0.852,0.125,0.23,0.7288,1,66.8
+SHP100073,Rotterdam,New York,Maersk,Rail,2024-04-12,2024-04-23,11,16,Out for Delivery,1544.22,3,1,Blizzard,8.88,4,5,Equipment Failure,5.93,0.853,0.081,0.26,1.0,1,35.7
+SHP100074,Rotterdam,Tokyo,UPS,Rail,2023-12-11,2023-12-20,9,6,Delayed,4446.6,3,0,Snow,5.54,4,2,Traffic Jam,3.82,0.926,0.021,0.29,0.7104,1,7.2
+SHP100075,Shanghai,Chicago,DB Schenker,Sea,2024-09-26,2024-10-17,21,2,Customs Hold,1326.95,4,0,Rain,2.22,6,6,None,0.0,0.916,0.105,0.32,0.6013,1,32.5
+SHP100076,Shanghai,New York,XPO Logistics,Air,2023-09-22,2023-09-26,4,1,Out for Delivery,447.37,5,0,Heavy Rain,4.65,3,1,Traffic Jam,4.13,0.825,0.231,0.35,1.0,1,63.9
+SHP100077,Hamburg,Tokyo,Maersk,Road,2023-08-28,2023-09-06,9,2,At Port,2472.8,4,1,Snow,6.19,9,3,None,0.0,0.846,0.271,0.11,0.7591,1,47.7
+SHP100078,Hamburg,Singapore,DB Schenker,Rail,2024-01-31,2024-02-09,9,4,Customs Hold,3717.29,1,1,Storm,8.46,4,5,None,0.4,0.878,0.385,0.33,0.9674,1,16.9
+SHP100079,Mumbai,Sydney,FedEx,Air,2023-02-24,2023-02-28,4,5,At Port,1816.08,4,1,Heavy Rain,4.58,4,9,Natural Disaster,10.02,0.893,0.289,0.3,1.0,1,56.8
+SHP100080,Hamburg,London,DB Schenker,Road,2024-04-27,2024-05-04,7,8,Customs Hold,416.19,3,0,Clear,0.38,7,1,None,0.0,0.865,0.378,0.1,0.7379,1,63.6
+SHP100081,Mumbai,Chicago,FedEx,Road,2024-08-07,2024-08-11,4,7,At Port,3981.32,5,0,Storm,7.55,9,10,Port Strike,8.57,0.907,0.392,0.13,1.0,1,33.7
+SHP100082,Dubai,New York,UPS,Road,2024-05-23,2024-05-27,4,8,Delayed,2550.66,4,1,Blizzard,8.51,6,7,None,0.0,0.916,0.246,0.38,1.0,1,47.0
+SHP100083,Rotterdam,Singapore,Maersk,Air,2023-06-25,2023-06-28,3,8,In Transit,3175.17,1,0,Clear,0.0,4,4,Port Strike,8.88,0.884,0.333,0.13,1.0,1,42.9
+SHP100084,Rotterdam,New York,DHL,Road,2024-08-21,2024-08-27,6,2,At Port,2027.09,5,0,Heavy Rain,5.46,7,6,Equipment Failure,5.67,0.887,0.251,0.26,1.0,1,67.8
+SHP100085,Shanghai,New York,XPO Logistics,Rail,2023-04-27,2023-05-06,9,10,Delayed,709.54,4,1,Fog,4.36,2,5,Natural Disaster,10.02,0.824,0.139,0.35,1.0,1,28.5
+SHP100086,Dubai,London,DB Schenker,Road,2024-10-20,2024-10-27,7,11,At Port,2371.66,5,1,Rain,1.67,7,7,Natural Disaster,10.02,0.85,0.031,0.41,1.0,1,86.4
+SHP100087,Dubai,Sydney,UPS,Road,2024-08-03,2024-08-07,4,5,Out for Delivery,652.02,3,0,Blizzard,8.71,9,10,Port Strike,9.28,0.93,0.086,0.15,1.0,1,86.9
+SHP100088,Rotterdam,Singapore,UPS,Sea,2024-10-27,2024-11-16,20,17,At Port,4714.63,4,0,Blizzard,8.84,5,8,Natural Disaster,9.7,0.911,0.074,0.16,0.9089,1,78.7
+SHP100089,Rotterdam,London,Maersk,Road,2023-07-16,2023-07-19,3,5,In Transit,3155.05,5,0,Fog,3.98,6,9,Traffic Jam,4.11,0.873,0.064,0.14,0.7688,1,43.0
+SHP100090,Shanghai,New York,DB Schenker,Road,2023-04-06,2023-04-16,10,11,Delayed,2206.24,4,1,Rain,1.62,8,8,Port Strike,8.85,0.865,0.382,0.35,1.0,1,78.8
+SHP100091,Los Angeles,Tokyo,DB Schenker,Sea,2023-05-17,2023-06-08,22,20,Customs Hold,4289.8,4,1,Rain,2.42,5,10,Equipment Failure,5.6,0.89,0.349,0.25,0.9029,1,68.0
+SHP100092,Los Angeles,New York,XPO Logistics,Sea,2023-12-02,2023-12-24,22,13,Out for Delivery,4886.62,3,0,Clear,0.49,3,7,Equipment Failure,6.37,0.843,0.097,0.23,0.6806,1,45.0
+SHP100093,Los Angeles,Chicago,FedEx,Rail,2023-10-10,2023-10-20,10,8,At Port,3679.24,3,1,Heavy Rain,4.62,5,6,Traffic Jam,4.26,0.935,0.167,0.2,0.7473,1,22.5
+SHP100094,Dubai,Sydney,DB Schenker,Air,2023-03-04,2023-03-08,4,3,Customs Hold,1612.31,5,0,Heavy Rain,4.93,4,5,Traffic Jam,3.7,0.84,0.281,0.34,1.0,1,79.0
+SHP100095,Dubai,New York,Maersk,Sea,2023-12-17,2024-01-08,22,18,Delayed,2037.16,1,1,Clear,0.26,5,1,None,0.0,0.84,0.061,0.11,0.5037,1,7.2
+SHP100096,Los Angeles,Tokyo,XPO Logistics,Rail,2024-01-14,2024-01-21,7,12,Delayed,4783.45,2,0,Snow,5.84,4,6,None,0.24,0.795,0.234,0.25,1.0,1,79.4
+SHP100097,Dubai,New York,FedEx,Air,2024-10-19,2024-10-21,2,5,Delayed,860.74,5,1,Snow,5.72,1,7,None,0.0,0.938,0.333,0.12,0.8285,1,61.5
+SHP100098,Shanghai,New York,XPO Logistics,Rail,2023-11-23,2023-12-06,13,2,Customs Hold,1888.77,2,1,Heavy Rain,4.69,4,10,None,0.0,0.835,0.182,0.35,0.7595,1,20.5
+SHP100099,Hamburg,Singapore,DHL,Sea,2023-06-25,2023-07-24,29,14,Delayed,1410.5,3,1,Snow,6.36,5,4,Traffic Jam,3.73,0.886,0.397,0.32,1.0,1,55.8
+SHP100100,Los Angeles,New York,DHL,Air,2023-06-28,2023-07-01,3,8,Delayed,4378.6,4,0,Heavy Rain,4.79,3,1,Traffic Jam,3.76,0.86,0.136,0.35,1.0,1,57.6
+SHP100101,Hamburg,Tokyo,UPS,Road,2024-11-20,2024-11-29,9,5,Customs Hold,3548.26,4,0,Heavy Rain,5.06,7,10,Traffic Jam,4.1,0.937,0.044,0.44,0.9,1,30.2
+SHP100102,Los Angeles,Singapore,UPS,Rail,2024-05-28,2024-06-09,12,0,Customs Hold,3345.21,3,0,Snow,6.44,5,5,Traffic Jam,4.4,0.924,0.15,0.2,0.7195,1,67.0
+SHP100103,Dubai,Tokyo,XPO Logistics,Air,2024-03-04,2024-03-09,5,7,Customs Hold,1112.96,3,0,Heavy Rain,4.98,4,6,Natural Disaster,10.43,0.834,0.075,0.2,1.0,1,82.4
+SHP100104,Los Angeles,Sydney,Maersk,Road,2024-03-28,2024-04-06,9,14,Out for Delivery,1232.67,1,0,Rain,2.39,7,5,Equipment Failure,5.56,0.852,0.283,0.13,0.8943,1,37.5
+SHP100105,Los Angeles,Sydney,DB Schenker,Air,2024-02-23,2024-02-25,2,4,At Port,3589.33,5,0,Snow,5.6,4,1,None,0.0,0.855,0.327,0.3,1.0,1,84.6
+SHP100106,Rotterdam,Tokyo,DHL,Air,2024-04-14,2024-04-19,5,7,Delayed,3887.1,5,1,Clear,0.23,1,9,Port Strike,8.5,0.854,0.131,0.44,1.0,1,7.0
+SHP100107,Rotterdam,Tokyo,DHL,Rail,2024-02-17,2024-02-25,8,6,Customs Hold,568.8,4,0,Storm,8.43,4,4,Traffic Jam,4.14,0.898,0.17,0.19,0.8864,1,79.6
+SHP100108,Dubai,Sydney,UPS,Road,2024-07-27,2024-08-05,9,1,Customs Hold,789.58,2,1,Clear,0.0,7,10,Natural Disaster,10.47,0.903,0.162,0.27,0.8863,1,20.6
+SHP100109,Shanghai,Chicago,Maersk,Air,2024-01-28,2024-02-01,4,4,In Transit,4316.04,2,0,Clear,0.25,1,9,Natural Disaster,9.65,0.853,0.299,0.41,1.0,1,47.7
+SHP100110,Shanghai,New York,XPO Logistics,Rail,2023-02-15,2023-02-28,13,17,At Port,3703.43,1,0,Heavy Rain,4.9,2,2,None,0.01,0.832,0.215,0.35,0.933,1,40.0
+SHP100111,Dubai,London,Maersk,Sea,2023-09-25,2023-10-29,34,12,Customs Hold,3562.75,5,1,Heavy Rain,4.88,4,2,Traffic Jam,4.11,0.862,0.309,0.17,0.8039,1,33.6
+SHP100112,Shanghai,Tokyo,XPO Logistics,Road,2023-05-31,2023-06-09,9,11,Out for Delivery,3632.9,4,1,Fog,4.12,7,10,None,0.07,0.83,0.175,0.22,0.8201,1,36.2
+SHP100113,Mumbai,Chicago,XPO Logistics,Rail,2024-06-21,2024-07-03,12,10,Out for Delivery,1694.73,4,1,Rain,1.9,2,10,Natural Disaster,10.16,0.807,0.091,0.15,0.8454,1,74.1
+SHP100114,Hamburg,Chicago,DB Schenker,Rail,2023-03-21,2023-04-02,12,7,Out for Delivery,427.67,1,1,Rain,1.54,4,7,None,0.44,0.837,0.199,0.39,0.9004,1,76.8
+SHP100115,Hamburg,Singapore,DHL,Rail,2024-08-05,2024-08-15,10,2,Customs Hold,1112.58,3,1,Snow,5.54,3,3,Traffic Jam,3.8,0.887,0.148,0.1,0.627,1,16.6
+SHP100116,Shanghai,Singapore,XPO Logistics,Road,2023-11-27,2023-12-04,7,0,Delayed,1561.35,5,0,Storm,8.04,8,9,Traffic Jam,3.5,0.845,0.37,0.23,1.0,1,28.0
+SHP100117,Rotterdam,New York,DB Schenker,Air,2023-03-27,2023-03-31,4,3,Customs Hold,4170.44,2,0,Fog,4.09,1,5,None,0.0,0.881,0.283,0.32,0.859,1,39.1
+SHP100118,Mumbai,Singapore,Maersk,Rail,2023-11-11,2023-11-24,13,3,Delayed,842.61,2,0,Clear,0.23,4,1,None,0.44,0.832,0.105,0.39,0.6945,1,65.8
+SHP100119,Mumbai,Sydney,XPO Logistics,Rail,2024-03-05,2024-03-17,12,9,Delayed,1500.49,4,1,Fog,3.58,3,8,Port Strike,8.75,0.818,0.29,0.3,1.0,1,10.1
+SHP100120,Mumbai,Tokyo,FedEx,Road,2023-02-16,2023-02-25,9,2,At Port,2729.09,4,0,Heavy Rain,4.83,9,8,Port Strike,8.66,0.896,0.074,0.13,0.8602,1,23.6
+SHP100121,Rotterdam,Singapore,FedEx,Sea,2023-04-14,2023-05-11,27,8,At Port,2617.11,1,1,Storm,7.78,4,7,None,0.0,0.904,0.045,0.23,0.6039,1,51.0
+SHP100122,Shanghai,London,DHL,Road,2023-02-11,2023-02-15,4,7,Delayed,1063.42,1,1,Storm,8.14,6,8,Natural Disaster,9.58,0.877,0.16,0.37,1.0,1,75.5
+SHP100123,Shanghai,Chicago,DHL,Road,2023-09-05,2023-09-12,7,12,Customs Hold,1675.23,2,1,Rain,2.06,9,5,Natural Disaster,10.43,0.883,0.028,0.36,1.0,1,51.3
+SHP100124,Rotterdam,London,XPO Logistics,Road,2023-06-18,2023-06-26,8,11,In Transit,1807.07,1,0,Snow,6.18,7,10,Traffic Jam,4.21,0.848,0.025,0.45,1.0,1,85.3
+SHP100125,Dubai,London,DB Schenker,Rail,2024-09-24,2024-10-09,15,11,Customs Hold,4888.33,3,0,Snow,6.38,4,4,Natural Disaster,9.54,0.882,0.398,0.27,1.0,1,40.8
+SHP100126,Los Angeles,Tokyo,XPO Logistics,Road,2024-07-15,2024-07-20,5,10,Delayed,1465.74,2,0,Fog,3.97,9,1,Equipment Failure,5.76,0.812,0.142,0.25,1.0,1,53.3
+SHP100127,Dubai,Chicago,DB Schenker,Sea,2023-04-11,2023-05-04,23,25,At Port,3276.58,5,1,Heavy Rain,5.43,5,2,None,0.36,0.857,0.307,0.25,0.938,1,55.9
+SHP100128,Hamburg,Sydney,XPO Logistics,Air,2023-06-02,2023-06-06,4,3,At Port,3655.79,2,0,Snow,6.02,2,8,None,0.38,0.83,0.323,0.11,0.7759,1,47.0
+SHP100129,Rotterdam,New York,XPO Logistics,Road,2023-05-01,2023-05-08,7,5,At Port,809.15,3,1,Storm,8.36,7,7,Port Strike,9.07,0.778,0.257,0.27,1.0,1,66.6
+SHP100130,Shanghai,Singapore,UPS,Road,2023-08-11,2023-08-16,5,10,At Port,2043.45,5,0,Fog,4.34,7,2,Port Strike,9.38,0.924,0.312,0.16,1.0,1,7.8
+SHP100131,Shanghai,London,DB Schenker,Rail,2023-10-04,2023-10-11,7,1,At Port,3656.59,5,0,Snow,5.7,5,10,Port Strike,9.21,0.897,0.344,0.16,0.9874,1,73.5
+SHP100132,Dubai,Sydney,DB Schenker,Sea,2024-02-17,2024-03-10,22,16,In Transit,1683.35,4,0,Rain,2.27,6,1,Port Strike,8.8,0.851,0.119,0.25,0.9161,1,21.0
+SHP100133,Mumbai,Sydney,UPS,Sea,2024-05-14,2024-06-03,20,25,Customs Hold,1760.79,2,1,Fog,4.1,5,9,Natural Disaster,9.68,0.895,0.358,0.3,1.0,1,93.3
+SHP100134,Dubai,Tokyo,FedEx,Rail,2023-03-29,2023-04-10,12,16,Delayed,3335.53,2,0,Rain,1.69,5,9,Natural Disaster,9.58,0.932,0.37,0.44,1.0,1,80.0
+SHP100135,Shanghai,Chicago,Maersk,Road,2023-03-25,2023-03-30,5,6,Customs Hold,544.17,4,0,Rain,2.27,9,5,None,0.1,0.891,0.121,0.21,0.729,1,31.8
+SHP100136,Hamburg,Tokyo,DHL,Road,2023-01-23,2023-02-01,9,8,Out for Delivery,2674.47,3,0,Clear,0.0,8,10,Port Strike,9.17,0.887,0.048,0.41,0.9045,1,16.6
+SHP100137,Rotterdam,Singapore,FedEx,Rail,2023-03-20,2023-04-03,14,19,Out for Delivery,2270.13,4,1,Snow,6.01,5,2,Traffic Jam,4.49,0.904,0.321,0.16,0.9132,1,66.3
+SHP100138,Los Angeles,New York,XPO Logistics,Road,2023-11-04,2023-11-13,9,10,At Port,2967.99,5,0,Storm,8.07,6,3,Natural Disaster,10.21,0.849,0.175,0.23,1.0,1,36.8
+SHP100139,Los Angeles,Chicago,XPO Logistics,Road,2024-02-03,2024-02-12,9,9,Delayed,1869.79,5,0,Snow,6.39,8,1,Traffic Jam,4.27,0.822,0.233,0.28,1.0,1,52.6
+SHP100140,Hamburg,Singapore,Maersk,Air,2024-01-24,2024-01-26,2,5,In Transit,466.28,1,1,Clear,0.01,1,6,Port Strike,9.27,0.864,0.19,0.32,0.9973,1,92.7
+SHP100141,Rotterdam,Chicago,XPO Logistics,Rail,2024-09-23,2024-09-30,7,2,Customs Hold,3400.85,2,1,Fog,4.07,2,2,None,0.0,0.872,0.2,0.2,0.6352,1,33.3
+SHP100142,Rotterdam,London,DHL,Sea,2023-03-19,2023-04-21,33,31,In Transit,3296.86,2,0,Rain,1.81,3,2,None,0.29,0.886,0.248,0.19,0.688,1,57.8
+SHP100143,Hamburg,Chicago,Maersk,Rail,2024-08-21,2024-08-31,10,6,At Port,4725.48,1,0,Snow,5.67,4,2,Equipment Failure,5.75,0.847,0.093,0.17,0.8326,1,75.5
+SHP100144,Hamburg,London,Maersk,Sea,2024-06-17,2024-07-19,32,21,Out for Delivery,2664.93,1,0,Fog,4.03,3,9,Natural Disaster,9.58,0.882,0.024,0.1,0.6836,1,49.2
+SHP100145,Dubai,Sydney,Maersk,Air,2023-01-04,2023-01-08,4,0,In Transit,373.32,2,0,Clear,0.42,2,2,Traffic Jam,4.01,0.867,0.082,0.25,0.5318,1,15.9
+SHP100146,Dubai,Singapore,XPO Logistics,Sea,2024-10-30,2024-11-20,21,21,In Transit,1800.96,2,1,Snow,5.87,5,7,Traffic Jam,4.4,0.836,0.114,0.15,0.9294,1,43.6
+SHP100147,Shanghai,Tokyo,DB Schenker,Sea,2023-08-27,2023-09-26,30,22,Delayed,4581.39,2,0,Storm,8.29,4,2,None,0.0,0.842,0.284,0.36,1.0,1,37.8
+SHP100148,Los Angeles,New York,UPS,Rail,2024-04-05,2024-04-20,15,15,Delayed,2346.97,3,0,Heavy Rain,4.83,4,4,Port Strike,9.28,0.928,0.099,0.34,1.0,1,58.6
+SHP100149,Shanghai,Sydney,DHL,Road,2023-08-07,2023-08-15,8,6,At Port,3377.41,2,0,Snow,6.22,9,2,None,0.41,0.897,0.321,0.13,0.7941,1,12.6
+SHP100150,Dubai,New York,DB Schenker,Road,2023-07-19,2023-07-29,10,15,Out for Delivery,3019.56,4,0,Fog,3.7,9,10,Natural Disaster,9.8,0.877,0.155,0.32,1.0,1,83.0
+SHP100151,Los Angeles,Tokyo,XPO Logistics,Road,2024-01-23,2024-02-02,10,8,At Port,2984.03,3,0,Heavy Rain,5.26,9,2,Port Strike,9.32,0.809,0.242,0.25,1.0,1,83.6
+SHP100152,Hamburg,London,FedEx,Road,2023-12-12,2023-12-17,5,10,At Port,332.76,1,0,Fog,3.56,9,2,Equipment Failure,6.24,0.914,0.021,0.1,0.8529,1,12.5
+SHP100153,Rotterdam,Singapore,DB Schenker,Air,2023-09-15,2023-09-20,5,6,At Port,4812.05,2,0,Blizzard,9.27,2,1,Equipment Failure,5.61,0.846,0.124,0.35,1.0,1,10.9
+SHP100154,Dubai,Singapore,XPO Logistics,Air,2024-09-03,2024-09-06,3,1,Customs Hold,3011.6,5,1,Snow,5.5,2,8,None,0.05,0.832,0.107,0.15,0.576,1,41.8
+SHP100155,Dubai,Tokyo,DB Schenker,Road,2023-10-04,2023-10-10,6,1,Delayed,4944.34,3,0,Rain,2.18,6,4,Port Strike,9.15,0.866,0.214,0.1,0.8001,1,37.9
+SHP100156,Dubai,Sydney,UPS,Rail,2023-03-09,2023-03-24,15,5,Out for Delivery,1217.67,2,0,Snow,6.22,2,5,Natural Disaster,9.5,0.893,0.218,0.28,0.9134,1,66.2
+SHP100157,Hamburg,Singapore,DHL,Sea,2024-01-01,2024-01-29,28,25,Delayed,1286.64,4,1,Storm,8.22,6,3,Port Strike,9.06,0.884,0.294,0.22,1.0,1,57.6
+SHP100158,Los Angeles,London,UPS,Rail,2024-03-13,2024-03-24,11,10,At Port,1889.28,4,0,Heavy Rain,5.17,2,6,Port Strike,8.8,0.906,0.128,0.31,0.9429,1,8.3
+SHP100159,Rotterdam,New York,XPO Logistics,Road,2024-04-22,2024-04-29,7,3,Delayed,1417.67,3,0,Rain,1.59,8,10,Equipment Failure,6.45,0.835,0.045,0.12,0.6947,1,56.4
+SHP100160,Hamburg,London,XPO Logistics,Sea,2024-07-27,2024-08-14,18,18,At Port,4011.85,2,0,Storm,8.49,3,6,Traffic Jam,4.42,0.842,0.316,0.1,1.0,1,11.5
+SHP100161,Rotterdam,London,FedEx,Sea,2023-02-05,2023-03-06,29,27,In Transit,4100.92,1,1,Blizzard,9.32,3,9,Traffic Jam,4.31,0.914,0.111,0.45,1.0,1,66.0
+SHP100162,Mumbai,New York,DHL,Road,2024-08-04,2024-08-12,8,6,Delayed,2531.09,5,0,Rain,2.01,9,8,Natural Disaster,9.65,0.869,0.116,0.17,0.9495,1,42.8
+SHP100163,Rotterdam,Sydney,Maersk,Sea,2023-07-11,2023-08-04,24,22,In Transit,4228.11,2,0,Snow,5.79,4,3,Equipment Failure,5.99,0.862,0.399,0.2,1.0,1,62.3
+SHP100164,Dubai,Sydney,XPO Logistics,Road,2023-05-03,2023-05-10,7,3,Delayed,3429.34,3,0,Clear,0.0,7,8,Traffic Jam,3.97,0.849,0.104,0.32,0.7775,1,62.4
+SHP100165,Los Angeles,Sydney,DHL,Air,2023-07-21,2023-07-24,3,3,Customs Hold,141.72,5,0,Snow,6.17,2,1,Natural Disaster,10.06,0.892,0.027,0.13,0.8492,1,29.2
+SHP100166,Shanghai,Sydney,DB Schenker,Road,2024-05-09,2024-05-12,3,8,Customs Hold,2034.85,1,0,Blizzard,9.08,7,4,Port Strike,8.68,0.855,0.112,0.36,1.0,1,39.6
+SHP100167,Hamburg,Singapore,FedEx,Rail,2024-09-14,2024-09-21,7,3,In Transit,2059.22,5,1,Blizzard,9.28,3,3,Traffic Jam,3.75,0.93,0.083,0.25,0.7746,1,65.3
+SHP100168,Rotterdam,Singapore,UPS,Rail,2023-04-27,2023-05-06,9,7,Delayed,2405.14,2,0,Snow,5.51,3,4,Port Strike,8.89,0.894,0.057,0.16,0.9122,1,83.3
+SHP100169,Los Angeles,London,DB Schenker,Air,2024-09-10,2024-09-13,3,8,Customs Hold,1801.5,5,0,Rain,1.74,3,10,Natural Disaster,10.04,0.884,0.249,0.36,1.0,1,17.0
+SHP100170,Shanghai,Chicago,FedEx,Air,2024-06-03,2024-06-07,4,5,Delayed,4152.58,1,0,Storm,8.33,4,4,Equipment Failure,6.21,0.934,0.042,0.33,0.941,1,19.5
+SHP100171,Rotterdam,Chicago,DHL,Air,2024-01-04,2024-01-09,5,8,Out for Delivery,2445.02,1,0,Fog,4.12,1,6,None,0.0,0.837,0.312,0.2,0.7901,1,71.9
+SHP100172,Hamburg,Singapore,Maersk,Sea,2023-09-19,2023-10-14,25,8,In Transit,3868.24,3,0,Snow,6.48,3,1,Traffic Jam,3.75,0.83,0.318,0.38,1.0,1,84.7
+SHP100173,Rotterdam,Chicago,Maersk,Rail,2023-07-06,2023-07-14,8,6,Delayed,956.34,1,0,Storm,7.81,5,3,None,0.35,0.861,0.278,0.2,0.8177,1,77.5
+SHP100174,Shanghai,Chicago,DHL,Air,2023-06-15,2023-06-18,3,0,In Transit,3174.52,1,0,Storm,8.21,1,8,Traffic Jam,3.67,0.916,0.121,0.34,0.7862,1,55.8
+SHP100175,Los Angeles,New York,Maersk,Sea,2023-03-24,2023-04-14,21,2,In Transit,1027.94,2,0,Blizzard,9.04,6,3,Natural Disaster,10.01,0.841,0.274,0.3,1.0,1,56.3
+SHP100176,Rotterdam,New York,Maersk,Air,2024-09-11,2024-09-13,2,3,At Port,4978.0,5,0,Snow,6.18,2,8,None,0.0,0.868,0.088,0.35,0.8837,1,46.7
+SHP100177,Dubai,Sydney,DB Schenker,Rail,2024-11-26,2024-12-07,11,14,Customs Hold,1415.6,5,0,Fog,4.0,4,3,Equipment Failure,6.42,0.847,0.217,0.19,0.9544,1,49.4
+SHP100178,Shanghai,Singapore,DHL,Rail,2023-12-16,2023-12-31,15,11,Out for Delivery,104.37,2,0,Snow,5.89,5,10,Equipment Failure,6.36,0.892,0.059,0.12,0.7506,1,11.1
+SHP100179,Mumbai,Chicago,UPS,Road,2024-02-09,2024-02-18,9,14,In Transit,4599.5,5,0,Storm,7.72,7,3,Equipment Failure,5.69,0.875,0.271,0.33,1.0,1,75.2
+SHP100180,Dubai,London,Maersk,Road,2023-07-31,2023-08-04,4,1,In Transit,2220.08,4,0,Rain,2.1,7,1,Traffic Jam,4.37,0.835,0.037,0.17,0.6947,1,61.0
+SHP100181,Los Angeles,Tokyo,DB Schenker,Sea,2024-10-03,2024-11-04,32,1,At Port,2904.64,2,0,Storm,7.55,4,3,None,0.0,0.892,0.392,0.25,0.8278,1,35.5
+SHP100182,Dubai,Sydney,UPS,Road,2023-09-14,2023-09-24,10,7,At Port,2655.86,4,0,Rain,1.54,6,4,Natural Disaster,9.52,0.923,0.047,0.43,0.9385,1,29.3
+SHP100183,Shanghai,Tokyo,UPS,Rail,2023-02-21,2023-03-03,10,9,Customs Hold,4202.87,2,1,Storm,8.36,2,8,Equipment Failure,6.34,0.944,0.363,0.33,1.0,1,57.1
+SHP100184,Rotterdam,New York,Maersk,Rail,2023-08-05,2023-08-17,12,7,At Port,4521.65,2,0,Storm,8.38,4,10,Natural Disaster,9.86,0.854,0.056,0.21,0.9306,1,41.8
+SHP100185,Shanghai,Singapore,Maersk,Rail,2023-08-23,2023-09-07,15,0,Customs Hold,1096.48,1,0,Rain,1.8,4,3,Natural Disaster,10.35,0.842,0.394,0.2,1.0,1,78.9
+SHP100186,Rotterdam,New York,XPO Logistics,Rail,2023-10-14,2023-10-27,13,6,Delayed,1998.4,5,0,Fog,3.73,4,9,Port Strike,9.23,0.861,0.094,0.31,0.9262,1,15.1
+SHP100187,Rotterdam,New York,XPO Logistics,Sea,2023-04-10,2023-05-15,35,36,At Port,185.12,5,0,Blizzard,8.55,6,5,None,0.0,0.828,0.288,0.34,1.0,1,70.5
+SHP100188,Dubai,Singapore,Maersk,Air,2024-08-17,2024-08-20,3,4,Out for Delivery,2190.11,2,0,Blizzard,9.35,2,4,None,0.0,0.834,0.045,0.15,0.7032,1,48.8
+SHP100189,Los Angeles,Chicago,Maersk,Air,2023-12-30,2024-01-04,5,3,At Port,85.87,3,0,Blizzard,8.69,3,10,Traffic Jam,3.76,0.831,0.142,0.28,0.9708,1,75.8
+SHP100190,Los Angeles,New York,UPS,Sea,2023-01-18,2023-02-08,21,12,Delayed,3064.08,3,0,Clear,0.0,3,7,None,0.0,0.896,0.247,0.37,0.7064,1,19.9
+SHP100191,Mumbai,Chicago,UPS,Road,2023-01-24,2023-02-02,9,0,Customs Hold,2067.81,5,0,Blizzard,8.77,6,5,Port Strike,8.88,0.926,0.304,0.45,1.0,1,41.1
+SHP100192,Rotterdam,Sydney,XPO Logistics,Air,2023-01-30,2023-02-01,2,3,At Port,2722.67,3,0,Fog,3.54,2,7,None,0.17,0.829,0.107,0.16,0.7268,1,28.3
+SHP100193,Dubai,London,DHL,Sea,2023-12-29,2024-01-20,22,7,Customs Hold,4775.92,2,0,Fog,4.4,3,4,None,0.0,0.874,0.24,0.31,0.7312,1,22.2
+SHP100194,Rotterdam,London,DHL,Rail,2023-01-17,2023-01-31,14,3,Customs Hold,3393.58,3,0,Snow,6.17,4,2,None,0.0,0.885,0.317,0.13,0.6744,1,41.5
+SHP100195,Dubai,London,FedEx,Air,2023-08-31,2023-09-02,2,6,In Transit,451.5,1,0,Blizzard,8.56,2,6,Equipment Failure,6.25,0.902,0.283,0.3,1.0,1,13.2
+SHP100196,Hamburg,Chicago,Maersk,Air,2023-10-12,2023-10-16,4,0,In Transit,2812.5,4,1,Clear,0.0,1,1,Port Strike,9.26,0.804,0.3,0.16,0.8221,1,25.9
+SHP100197,Rotterdam,Tokyo,XPO Logistics,Air,2023-06-03,2023-06-07,4,6,At Port,4632.77,3,1,Rain,1.97,3,1,Natural Disaster,9.81,0.83,0.381,0.22,1.0,1,94.3
+SHP100198,Los Angeles,Singapore,Maersk,Road,2023-05-03,2023-05-10,7,7,In Transit,3534.61,1,1,Fog,4.41,8,4,Natural Disaster,10.39,0.857,0.021,0.33,1.0,1,81.3
+SHP100199,Rotterdam,London,DHL,Rail,2024-02-10,2024-02-23,13,10,Delayed,4455.28,1,0,Storm,8.17,4,10,Traffic Jam,4.49,0.871,0.364,0.26,1.0,1,18.9
+SHP100200,Rotterdam,Chicago,FedEx,Road,2024-03-27,2024-04-01,5,9,In Transit,4042.85,1,1,Snow,6.21,6,1,Traffic Jam,3.58,0.925,0.023,0.2,0.7892,1,37.2
+SHP100201,Mumbai,London,Maersk,Road,2024-02-13,2024-02-19,6,5,Delayed,1565.65,4,0,Rain,1.85,8,9,None,0.11,0.866,0.288,0.42,0.9595,1,83.6
+SHP100202,Mumbai,London,FedEx,Air,2024-03-16,2024-03-19,3,2,Out for Delivery,200.07,1,1,Rain,2.31,3,6,Equipment Failure,5.99,0.922,0.34,0.28,0.9329,1,75.5
+SHP100203,Dubai,Sydney,DHL,Road,2024-06-03,2024-06-10,7,9,Out for Delivery,4283.7,3,0,Rain,1.66,7,9,Port Strike,8.64,0.906,0.208,0.27,1.0,1,81.5
+SHP100204,Rotterdam,New York,DHL,Road,2024-05-11,2024-05-21,10,5,Out for Delivery,3290.61,3,0,Clear,0.0,7,2,None,0.27,0.912,0.177,0.25,0.6043,1,14.0
+SHP100205,Los Angeles,London,DB Schenker,Rail,2024-07-16,2024-07-24,8,13,At Port,4487.05,2,1,Heavy Rain,4.62,2,9,Natural Disaster,10.36,0.876,0.344,0.21,1.0,1,53.4
+SHP100206,Mumbai,Sydney,DB Schenker,Road,2023-05-31,2023-06-09,9,14,Out for Delivery,3738.93,4,0,Blizzard,9.14,7,5,Traffic Jam,4.05,0.865,0.115,0.3,1.0,1,15.0
+SHP100207,Dubai,Singapore,DB Schenker,Sea,2023-01-11,2023-02-13,33,6,In Transit,1403.55,1,0,Heavy Rain,5.48,6,9,Natural Disaster,10.48,0.877,0.358,0.15,1.0,1,26.2
+SHP100208,Hamburg,Sydney,FedEx,Sea,2023-03-27,2023-04-18,22,24,Customs Hold,4631.24,2,1,Fog,4.49,4,7,Port Strike,8.66,0.917,0.357,0.13,0.9275,1,53.3
+SHP100209,Shanghai,Singapore,UPS,Rail,2023-05-16,2023-05-27,11,13,At Port,3565.73,4,1,Heavy Rain,4.98,5,8,None,0.43,0.942,0.12,0.4,0.8127,1,67.2
+SHP100210,Hamburg,New York,UPS,Road,2023-04-18,2023-04-21,3,7,Out for Delivery,3703.03,4,0,Snow,5.5,9,3,Natural Disaster,9.75,0.88,0.064,0.36,1.0,1,74.4
+SHP100211,Hamburg,Sydney,FedEx,Sea,2024-09-01,2024-10-03,32,17,Delayed,1904.83,5,0,Rain,2.23,5,2,Traffic Jam,4.22,0.898,0.099,0.43,0.8674,1,48.8
+SHP100212,Mumbai,London,XPO Logistics,Air,2024-07-24,2024-07-26,2,7,Customs Hold,727.59,4,0,Blizzard,9.22,4,5,Traffic Jam,4.4,0.863,0.368,0.3,1.0,1,83.8
+SHP100213,Shanghai,Sydney,XPO Logistics,Rail,2024-07-26,2024-08-07,12,7,Customs Hold,3959.67,4,0,Storm,7.73,2,9,Natural Disaster,9.8,0.831,0.085,0.3,1.0,1,49.7
+SHP100214,Mumbai,Singapore,DB Schenker,Air,2024-08-22,2024-08-27,5,5,Delayed,4738.75,3,0,Fog,4.14,3,9,Traffic Jam,3.68,0.867,0.28,0.28,0.9443,1,12.4
+SHP100215,Hamburg,London,Maersk,Road,2023-04-05,2023-04-14,9,4,At Port,4102.66,3,1,Blizzard,9.13,7,3,None,0.0,0.863,0.226,0.1,0.7805,1,22.8
+SHP100216,Rotterdam,New York,Maersk,Sea,2024-02-26,2024-03-18,21,6,Customs Hold,1358.61,1,0,Heavy Rain,5.13,6,10,Port Strike,9.2,0.845,0.275,0.1,0.9964,1,43.5
+SHP100217,Los Angeles,Tokyo,DB Schenker,Air,2024-01-02,2024-01-04,2,3,Delayed,3187.5,4,0,Storm,8.21,1,9,Natural Disaster,9.69,0.888,0.104,0.25,0.9958,1,71.4
+SHP100218,Los Angeles,London,DB Schenker,Rail,2024-04-04,2024-04-12,8,0,Delayed,4879.38,2,1,Fog,4.33,3,5,Traffic Jam,4.29,0.886,0.391,0.13,0.7788,1,68.2
+SHP100219,Shanghai,Chicago,UPS,Sea,2024-08-14,2024-09-05,22,3,At Port,4486.44,2,0,Heavy Rain,4.72,3,6,Port Strike,8.56,0.905,0.294,0.19,0.8651,1,57.7
+SHP100220,Mumbai,Singapore,DHL,Sea,2023-04-14,2023-05-19,35,29,Out for Delivery,4716.79,2,0,Clear,0.31,5,9,Natural Disaster,9.91,0.905,0.153,0.38,1.0,1,87.8
+SHP100221,Mumbai,Singapore,FedEx,Sea,2024-06-11,2024-07-13,32,4,Delayed,369.29,2,0,Blizzard,9.1,6,7,Port Strike,8.95,0.912,0.152,0.15,0.9668,1,9.0
+SHP100222,Hamburg,New York,UPS,Road,2023-07-24,2023-07-29,5,8,In Transit,311.91,3,0,Clear,0.0,8,5,Traffic Jam,3.79,0.934,0.366,0.35,1.0,1,29.4
+SHP100223,Los Angeles,Singapore,Maersk,Air,2023-03-15,2023-03-18,3,7,Delayed,3525.1,4,0,Rain,2.25,4,3,Port Strike,8.9,0.823,0.276,0.32,1.0,1,86.9
+SHP100224,Dubai,Singapore,DB Schenker,Road,2024-01-02,2024-01-09,7,8,At Port,3885.71,5,1,Blizzard,9.4,7,1,Port Strike,8.68,0.871,0.364,0.15,1.0,1,68.1
+SHP100225,Los Angeles,Sydney,FedEx,Rail,2024-01-22,2024-02-04,13,11,Customs Hold,4830.81,3,0,Snow,5.52,3,7,Traffic Jam,4.1,0.923,0.081,0.35,0.8249,1,33.8
+SHP100226,Los Angeles,Tokyo,Maersk,Road,2024-03-23,2024-03-27,4,6,Out for Delivery,2614.2,1,0,Snow,6.33,6,1,Traffic Jam,3.64,0.85,0.025,0.25,0.9469,1,9.1
+SHP100227,Dubai,New York,UPS,Rail,2024-11-04,2024-11-12,8,7,At Port,3321.96,2,0,Rain,2.02,5,9,Natural Disaster,9.79,0.896,0.077,0.39,0.9774,1,14.1
+SHP100228,Los Angeles,Chicago,XPO Logistics,Road,2023-02-02,2023-02-07,5,8,Delayed,1195.94,3,0,Heavy Rain,4.96,6,4,None,0.43,0.831,0.315,0.21,0.9898,1,46.3
+SHP100229,Hamburg,Tokyo,UPS,Rail,2024-11-25,2024-12-07,12,4,Customs Hold,2212.11,5,0,Storm,8.31,5,8,Natural Disaster,9.53,0.901,0.344,0.15,1.0,1,87.5
+SHP100230,Dubai,Singapore,DB Schenker,Sea,2024-03-28,2024-04-23,26,23,At Port,2102.54,1,0,Snow,5.51,4,10,Equipment Failure,5.68,0.843,0.309,0.15,0.9315,1,70.8
+SHP100231,Dubai,New York,DB Schenker,Road,2024-01-20,2024-01-29,9,5,At Port,4443.05,4,0,Heavy Rain,4.6,7,6,Natural Disaster,10.49,0.866,0.035,0.12,0.9143,1,58.5
+SHP100232,Dubai,Singapore,UPS,Road,2024-06-29,2024-07-09,10,2,Out for Delivery,950.66,4,0,Storm,7.99,9,4,Natural Disaster,10.5,0.943,0.179,0.15,1.0,1,35.8
+SHP100233,Los Angeles,Singapore,XPO Logistics,Road,2024-11-30,2024-12-06,6,0,Out for Delivery,723.96,5,0,Snow,5.56,7,7,Traffic Jam,3.82,0.842,0.298,0.17,0.8664,1,76.5
+SHP100234,Shanghai,London,UPS,Sea,2023-06-22,2023-07-11,19,16,Customs Hold,1439.87,4,0,Clear,0.0,6,5,Traffic Jam,3.8,0.927,0.309,0.25,0.8023,1,57.9
+SHP100235,Hamburg,Singapore,Maersk,Air,2023-04-26,2023-04-29,3,5,In Transit,525.34,3,0,Rain,2.04,2,9,Traffic Jam,4.37,0.851,0.1,0.38,0.9248,1,50.6
+SHP100236,Hamburg,Chicago,UPS,Rail,2024-08-20,2024-08-31,11,5,Customs Hold,2566.64,5,1,Fog,3.64,2,10,Equipment Failure,6.14,0.884,0.206,0.41,0.9864,1,11.2
+SHP100237,Hamburg,Singapore,Maersk,Rail,2024-03-03,2024-03-10,7,10,In Transit,3884.21,3,0,Heavy Rain,5.02,5,8,Port Strike,8.9,0.872,0.091,0.21,0.9582,1,35.4
+SHP100238,Shanghai,Sydney,FedEx,Sea,2023-01-12,2023-02-03,22,3,At Port,2562.01,2,0,Heavy Rain,5.03,3,1,Port Strike,9.34,0.943,0.03,0.12,0.6874,1,24.8
+SHP100239,Dubai,New York,UPS,Air,2023-11-10,2023-11-12,2,5,Customs Hold,75.08,1,0,Snow,5.99,3,2,Natural Disaster,9.59,0.922,0.341,0.18,1.0,1,59.2
+SHP100240,Mumbai,Chicago,FedEx,Sea,2023-02-06,2023-03-11,33,4,At Port,3007.14,3,0,Heavy Rain,5.06,4,4,Traffic Jam,4.47,0.921,0.315,0.2,0.7403,1,48.0
+SHP100241,Shanghai,Chicago,UPS,Road,2023-06-03,2023-06-12,9,11,In Transit,3133.88,2,0,Storm,8.27,7,2,None,0.47,0.933,0.212,0.37,0.9775,1,55.0
+SHP100242,Shanghai,Singapore,XPO Logistics,Sea,2023-10-16,2023-11-08,23,11,Out for Delivery,52.64,5,0,Snow,6.1,6,2,None,0.03,0.838,0.127,0.22,0.7524,1,5.6
+SHP100243,Hamburg,Tokyo,XPO Logistics,Sea,2023-05-12,2023-06-02,21,5,Delayed,4075.29,4,0,Heavy Rain,5.02,6,2,Natural Disaster,10.2,0.835,0.199,0.22,1.0,1,84.8
+SHP100244,Dubai,New York,DB Schenker,Road,2024-03-22,2024-03-25,3,7,Delayed,4012.53,4,0,Heavy Rain,4.8,9,9,Natural Disaster,10.18,0.86,0.042,0.13,1.0,1,19.0
+SHP100245,Shanghai,Chicago,Maersk,Sea,2024-04-18,2024-05-13,25,17,Delayed,406.55,5,0,Blizzard,8.68,3,6,None,0.37,0.885,0.369,0.33,1.0,1,73.5
+SHP100246,Dubai,London,DB Schenker,Rail,2023-12-15,2023-12-28,13,4,Out for Delivery,4572.32,1,1,Clear,0.28,2,9,Equipment Failure,6.48,0.891,0.333,0.22,0.7898,1,29.1
+SHP100247,Rotterdam,Tokyo,UPS,Rail,2023-04-17,2023-04-28,11,10,Customs Hold,706.55,2,0,Blizzard,8.9,4,3,Port Strike,8.75,0.932,0.105,0.15,0.8798,1,42.3
+SHP100248,Dubai,New York,DHL,Air,2023-03-29,2023-04-01,3,8,Delayed,1188.88,5,0,Storm,8.26,4,4,None,0.44,0.877,0.366,0.17,0.9927,1,91.4
+SHP100249,Dubai,Tokyo,DHL,Sea,2024-04-29,2024-06-02,34,15,In Transit,3573.62,1,0,Snow,6.17,5,9,Natural Disaster,10.04,0.911,0.305,0.24,1.0,1,64.4
+SHP100250,Dubai,London,Maersk,Air,2023-03-20,2023-03-22,2,4,At Port,3241.84,5,0,Heavy Rain,4.84,4,8,Equipment Failure,6.25,0.844,0.34,0.28,1.0,1,67.9
+SHP100251,Hamburg,Sydney,DB Schenker,Rail,2023-08-24,2023-09-08,15,17,In Transit,1197.99,4,1,Heavy Rain,5.1,5,2,Natural Disaster,9.8,0.873,0.076,0.42,1.0,1,75.9
+SHP100252,Dubai,New York,XPO Logistics,Air,2024-06-28,2024-06-30,2,7,Delayed,1207.69,5,0,Clear,0.0,1,7,Natural Disaster,10.1,0.838,0.032,0.44,1.0,1,78.5
+SHP100253,Dubai,London,UPS,Sea,2024-06-17,2024-07-20,33,14,In Transit,2575.61,2,0,Blizzard,8.9,4,2,Natural Disaster,9.9,0.886,0.264,0.18,0.9896,1,23.5
+SHP100254,Los Angeles,London,Maersk,Air,2024-05-24,2024-05-29,5,1,At Port,2761.99,4,0,Fog,4.04,1,9,None,0.0,0.839,0.227,0.23,0.6355,1,18.9
+SHP100255,Shanghai,New York,UPS,Air,2024-09-03,2024-09-07,4,8,Delayed,4052.12,3,0,Rain,2.35,3,7,None,0.34,0.921,0.289,0.35,0.8298,1,55.2
+SHP100256,Los Angeles,New York,FedEx,Rail,2023-07-01,2023-07-08,7,9,At Port,2060.84,1,1,Fog,4.43,5,8,Natural Disaster,10.42,0.903,0.149,0.28,1.0,1,7.2
+SHP100257,Rotterdam,London,Maersk,Rail,2024-02-25,2024-03-11,15,15,Delayed,155.93,1,0,Snow,6.26,4,7,Traffic Jam,4.37,0.865,0.324,0.16,0.9319,1,17.7
+SHP100258,Rotterdam,Singapore,FedEx,Sea,2024-06-02,2024-07-04,32,35,Customs Hold,1814.62,2,0,Storm,8.45,5,4,Natural Disaster,9.7,0.931,0.073,0.29,1.0,1,27.1
+SHP100259,Rotterdam,Tokyo,DB Schenker,Rail,2023-10-26,2023-11-07,12,1,In Transit,1362.42,5,0,Blizzard,9.02,2,2,None,0.0,0.849,0.278,0.18,0.7497,1,56.8
+SHP100260,Shanghai,Chicago,DB Schenker,Air,2023-03-03,2023-03-07,4,9,Out for Delivery,3669.79,2,0,Rain,2.21,4,5,Natural Disaster,9.82,0.855,0.071,0.13,0.8862,1,54.6
+SHP100261,Shanghai,New York,DB Schenker,Road,2024-05-26,2024-05-30,4,6,At Port,3765.32,1,0,Blizzard,9.39,8,1,Natural Disaster,9.7,0.873,0.171,0.35,1.0,1,29.9
+SHP100262,Rotterdam,London,Maersk,Rail,2023-01-08,2023-01-18,10,13,Out for Delivery,2394.2,3,0,Heavy Rain,4.95,2,2,Traffic Jam,4.12,0.868,0.239,0.19,0.8657,1,71.4
+SHP100263,Shanghai,New York,UPS,Road,2023-06-05,2023-06-08,3,1,Out for Delivery,691.33,4,0,Heavy Rain,5.04,6,2,Port Strike,8.66,0.907,0.036,0.35,0.9076,1,48.7
+SHP100264,Hamburg,Chicago,DB Schenker,Air,2023-01-04,2023-01-07,3,6,Customs Hold,3820.33,5,0,Blizzard,9.44,2,4,None,0.18,0.857,0.139,0.35,1.0,1,20.0
+SHP100265,Shanghai,New York,XPO Logistics,Road,2024-08-01,2024-08-05,4,8,At Port,3723.02,5,0,Fog,3.76,6,5,Equipment Failure,6.15,0.817,0.395,0.35,1.0,1,35.8
+SHP100266,Shanghai,Tokyo,FedEx,Rail,2023-02-12,2023-02-21,9,11,In Transit,3487.22,2,1,Rain,2.14,3,4,Natural Disaster,9.91,0.917,0.372,0.17,0.9729,1,77.1
+SHP100267,Rotterdam,Chicago,Maersk,Rail,2023-12-05,2023-12-16,11,14,At Port,4791.71,1,0,Fog,4.44,4,9,Natural Disaster,10.14,0.864,0.2,0.2,1.0,1,63.0
+SHP100268,Shanghai,Sydney,DB Schenker,Air,2023-10-07,2023-10-09,2,4,Delayed,3491.64,2,0,Storm,8.22,2,4,Equipment Failure,5.96,0.897,0.227,0.38,1.0,1,73.6
+SHP100269,Shanghai,London,FedEx,Air,2024-05-06,2024-05-10,4,4,Customs Hold,3704.94,3,0,Storm,8.32,1,7,Equipment Failure,5.98,0.932,0.114,0.44,0.994,1,16.3
+SHP100270,Hamburg,Chicago,DB Schenker,Rail,2023-12-24,2024-01-04,11,10,Delayed,3652.72,3,1,Storm,8.38,3,1,Natural Disaster,9.93,0.878,0.074,0.12,0.8914,1,61.0
+SHP100271,Mumbai,Sydney,FedEx,Rail,2023-01-15,2023-01-27,12,14,At Port,3148.8,1,1,Storm,7.98,5,2,Traffic Jam,4.13,0.912,0.159,0.3,0.9787,1,81.3
+SHP100272,Los Angeles,New York,XPO Logistics,Rail,2024-10-24,2024-11-05,12,4,In Transit,4781.12,2,1,Clear,0.0,3,2,Equipment Failure,5.83,0.804,0.26,0.23,0.7685,1,14.3
+SHP100273,Mumbai,Sydney,Maersk,Road,2023-12-03,2023-12-09,6,1,Out for Delivery,2264.22,1,0,Storm,7.71,6,8,Port Strike,9.08,0.837,0.35,0.3,1.0,1,40.9
+SHP100274,Mumbai,Sydney,DB Schenker,Road,2024-08-29,2024-09-03,5,5,Delayed,655.54,5,0,Heavy Rain,5.06,7,6,None,0.14,0.846,0.256,0.3,0.9595,1,16.2
+SHP100275,Rotterdam,Sydney,DHL,Sea,2023-12-11,2024-01-12,32,32,Customs Hold,4772.06,1,1,Heavy Rain,4.74,5,6,Equipment Failure,5.66,0.846,0.229,0.37,1.0,1,46.9
+SHP100276,Los Angeles,Sydney,XPO Logistics,Air,2023-02-06,2023-02-10,4,9,At Port,3952.0,3,0,Clear,0.25,3,6,None,0.2,0.868,0.15,0.25,0.7628,1,10.0
+SHP100277,Dubai,Sydney,DB Schenker,Air,2024-11-05,2024-11-08,3,1,Customs Hold,1939.19,2,0,Heavy Rain,5.35,4,7,Traffic Jam,3.89,0.872,0.121,0.4,0.8654,1,82.0
+SHP100278,Shanghai,Tokyo,DHL,Sea,2023-11-10,2023-12-03,23,8,Out for Delivery,4624.68,3,0,Snow,5.75,3,5,Equipment Failure,5.94,0.899,0.143,0.17,0.7072,1,23.8
+SHP100279,Hamburg,Chicago,XPO Logistics,Air,2024-04-16,2024-04-18,2,5,In Transit,787.51,5,0,Blizzard,9.03,1,2,Port Strike,8.53,0.884,0.104,0.36,1.0,1,29.9
+SHP100280,Hamburg,Sydney,DHL,Air,2024-02-18,2024-02-22,4,1,In Transit,2143.78,1,0,Storm,7.97,1,7,None,0.27,0.921,0.368,0.45,0.9618,1,59.3
+SHP100281,Mumbai,Sydney,Maersk,Rail,2023-01-19,2023-01-29,10,8,At Port,2052.97,1,1,Snow,5.77,5,9,None,0.0,0.844,0.233,0.3,0.9223,1,9.9
+SHP100282,Los Angeles,Tokyo,XPO Logistics,Sea,2024-11-10,2024-12-08,28,24,Delayed,1503.45,2,1,Storm,8.21,4,6,None,0.0,0.854,0.23,0.25,0.8113,1,69.1
+SHP100283,Rotterdam,Tokyo,XPO Logistics,Sea,2023-06-27,2023-08-01,35,3,Out for Delivery,3800.04,4,0,Clear,0.0,4,2,Traffic Jam,3.63,0.823,0.305,0.28,0.8549,1,68.0
+SHP100284,Dubai,London,XPO Logistics,Sea,2024-10-28,2024-11-20,23,9,Out for Delivery,4635.7,1,0,Clear,0.5,6,3,Equipment Failure,5.76,0.808,0.136,0.22,0.8646,1,36.5
+SHP100285,Shanghai,Sydney,XPO Logistics,Sea,2023-11-27,2023-12-23,26,13,Out for Delivery,2773.3,3,0,Snow,6.04,6,2,Natural Disaster,9.9,0.857,0.394,0.29,1.0,1,89.1
+SHP100286,Mumbai,Singapore,DHL,Sea,2023-09-25,2023-10-20,25,21,In Transit,2277.7,2,0,Blizzard,9.15,6,1,None,0.0,0.893,0.221,0.21,0.872,1,12.3
+SHP100287,Los Angeles,London,Maersk,Sea,2023-06-09,2023-07-13,34,26,In Transit,787.43,4,1,Rain,2.13,6,8,Natural Disaster,9.66,0.868,0.326,0.36,1.0,1,25.6
+SHP100288,Rotterdam,London,Maersk,Rail,2023-10-06,2023-10-20,14,3,Delayed,4779.8,4,0,Heavy Rain,5.02,3,6,None,0.41,0.84,0.257,0.4,0.957,1,41.4
+SHP100289,Shanghai,Sydney,DB Schenker,Rail,2024-03-17,2024-03-26,9,9,At Port,1965.32,3,0,Rain,2.21,5,7,Traffic Jam,3.8,0.894,0.059,0.33,0.7557,1,58.0
+SHP100290,Los Angeles,Singapore,FedEx,Air,2023-08-14,2023-08-16,2,6,Out for Delivery,4490.76,2,0,Fog,3.66,4,1,None,0.0,0.925,0.176,0.22,0.7772,1,29.6
+SHP100291,Mumbai,Tokyo,UPS,Sea,2024-07-31,2024-08-28,28,3,Customs Hold,2732.23,1,0,Snow,5.9,5,4,Traffic Jam,3.6,0.929,0.391,0.13,0.7142,1,51.1
+SHP100292,Dubai,Singapore,FedEx,Rail,2024-07-09,2024-07-22,13,10,At Port,2816.8,4,0,Snow,5.65,3,10,Equipment Failure,6.15,0.897,0.194,0.15,0.7613,1,49.7
+SHP100293,Dubai,Singapore,Maersk,Air,2024-03-26,2024-03-28,2,7,Customs Hold,1450.41,4,0,Snow,5.91,1,9,Equipment Failure,5.71,0.878,0.106,0.15,1.0,1,83.1
+SHP100294,Dubai,Sydney,XPO Logistics,Sea,2024-11-09,2024-11-27,18,16,Delayed,559.56,1,1,Blizzard,8.7,3,8,None,0.24,0.858,0.188,0.38,0.9796,1,16.8
+SHP100295,Shanghai,Singapore,Maersk,Air,2023-07-24,2023-07-27,3,1,At Port,2188.94,5,0,Heavy Rain,5.24,1,8,Traffic Jam,4.07,0.874,0.352,0.42,0.9565,1,27.7
+SHP100296,Dubai,Tokyo,UPS,Road,2023-10-14,2023-10-18,4,7,Out for Delivery,2686.32,3,0,Blizzard,9.0,7,3,Port Strike,8.91,0.919,0.168,0.29,1.0,1,23.1
+SHP100297,Rotterdam,Tokyo,UPS,Sea,2023-06-24,2023-07-27,33,34,Customs Hold,987.0,5,0,Fog,3.88,3,7,Port Strike,8.97,0.92,0.213,0.31,1.0,1,53.7
+SHP100298,Los Angeles,New York,FedEx,Air,2024-10-15,2024-10-19,4,9,Out for Delivery,3877.13,1,0,Fog,4.21,3,10,Port Strike,9.38,0.921,0.381,0.26,1.0,1,54.4
+SHP100299,Hamburg,New York,DHL,Air,2023-01-16,2023-01-18,2,3,Delayed,2602.37,3,0,Snow,5.82,4,1,Port Strike,9.07,0.895,0.27,0.15,1.0,1,28.4
+SHP100300,Rotterdam,New York,Maersk,Air,2023-06-08,2023-06-10,2,5,At Port,89.64,3,1,Blizzard,9.09,2,5,Traffic Jam,4.18,0.863,0.233,0.23,1.0,1,84.1
+SHP100301,Rotterdam,New York,Maersk,Sea,2024-11-13,2024-12-12,29,24,Delayed,3720.2,3,0,Heavy Rain,5.36,6,7,Equipment Failure,5.97,0.848,0.111,0.38,1.0,1,52.4
+SHP100302,Shanghai,New York,UPS,Sea,2023-02-19,2023-03-13,22,10,Out for Delivery,746.47,4,0,Snow,5.57,6,10,Traffic Jam,3.54,0.902,0.351,0.35,1.0,1,76.7
+SHP100303,Hamburg,Tokyo,FedEx,Rail,2024-03-23,2024-03-31,8,5,Customs Hold,4313.58,3,0,Fog,4.4,2,6,Traffic Jam,4.43,0.955,0.329,0.39,0.845,1,79.3
+SHP100304,Rotterdam,New York,Maersk,Road,2024-08-08,2024-08-16,8,6,At Port,1179.96,5,0,Clear,0.0,7,1,Traffic Jam,3.74,0.856,0.116,0.16,0.7484,1,17.4
+SHP100305,Mumbai,London,UPS,Sea,2024-04-10,2024-05-08,28,27,Delayed,1707.6,5,0,Storm,8.37,4,9,Port Strike,8.54,0.899,0.233,0.39,1.0,1,70.8
+SHP100306,Hamburg,Sydney,UPS,Rail,2023-12-15,2023-12-25,10,8,Delayed,4901.47,2,1,Snow,5.88,3,8,None,0.0,0.906,0.163,0.1,0.5793,1,27.2
+SHP100307,Hamburg,New York,Maersk,Air,2023-02-28,2023-03-04,4,8,Out for Delivery,3971.53,2,0,Heavy Rain,5.2,4,3,None,0.23,0.857,0.108,0.28,0.939,1,76.9
+SHP100308,Hamburg,Singapore,UPS,Rail,2023-09-12,2023-09-20,8,12,Out for Delivery,1760.77,3,0,Heavy Rain,5.25,5,9,Equipment Failure,6.36,0.951,0.205,0.36,0.9952,1,13.4
+SHP100309,Hamburg,London,XPO Logistics,Rail,2024-09-16,2024-09-28,12,16,Delayed,2657.75,5,1,Fog,4.26,4,2,None,0.23,0.877,0.202,0.1,0.6976,1,4.8
+SHP100310,Hamburg,Singapore,Maersk,Sea,2024-10-29,2024-11-26,28,21,Out for Delivery,1612.55,1,1,Fog,3.9,5,1,Natural Disaster,10.15,0.839,0.347,0.18,1.0,1,53.4
+SHP100311,Mumbai,London,FedEx,Air,2024-01-13,2024-01-15,2,6,Customs Hold,2084.32,1,0,Clear,0.13,1,1,None,0.0,0.877,0.253,0.36,0.9254,1,43.8
+SHP100312,Dubai,Tokyo,Maersk,Air,2024-05-30,2024-06-02,3,2,Delayed,4920.54,5,0,Blizzard,9.1,2,6,Traffic Jam,4.36,0.852,0.167,0.21,0.8998,1,65.7
+SHP100313,Rotterdam,Singapore,UPS,Road,2023-11-01,2023-11-08,7,5,Delayed,3691.57,3,0,Heavy Rain,4.69,7,9,Natural Disaster,10.17,0.911,0.349,0.27,1.0,1,83.5
+SHP100314,Dubai,Tokyo,XPO Logistics,Rail,2024-08-17,2024-08-29,12,4,Delayed,982.31,1,0,Fog,4.13,2,7,Port Strike,8.64,0.851,0.23,0.16,0.8906,1,25.4
+SHP100315,Los Angeles,Sydney,FedEx,Rail,2024-05-06,2024-05-18,12,15,Customs Hold,295.29,4,0,Storm,7.52,2,7,Port Strike,8.93,0.924,0.081,0.38,1.0,1,89.3
+SHP100316,Mumbai,Singapore,DB Schenker,Rail,2023-03-29,2023-04-08,10,9,Delayed,741.86,3,0,Storm,8.23,3,9,Traffic Jam,3.75,0.898,0.055,0.12,0.7071,1,32.6
+SHP100317,Shanghai,London,FedEx,Road,2023-09-05,2023-09-13,8,8,In Transit,4870.73,1,1,Fog,3.84,7,5,Port Strike,9.19,0.884,0.186,0.42,1.0,1,80.2
+SHP100318,Mumbai,Tokyo,XPO Logistics,Air,2024-08-30,2024-09-04,5,8,Out for Delivery,2247.74,3,1,Snow,6.1,2,4,Equipment Failure,5.72,0.874,0.318,0.15,1.0,1,14.3
+SHP100319,Los Angeles,Tokyo,FedEx,Sea,2024-02-19,2024-03-10,20,25,At Port,812.51,4,0,Heavy Rain,4.55,5,7,Equipment Failure,5.95,0.901,0.24,0.25,0.961,1,41.9
+SHP100320,Hamburg,Singapore,UPS,Rail,2024-11-21,2024-11-29,8,7,Customs Hold,37.97,3,1,Heavy Rain,4.65,3,2,None,0.0,0.905,0.071,0.17,0.515,1,24.5
+SHP100321,Los Angeles,Sydney,DB Schenker,Road,2024-08-12,2024-08-20,8,6,In Transit,863.14,3,1,Fog,4.18,8,6,Traffic Jam,4.35,0.862,0.071,0.21,0.8055,1,29.8
+SHP100322,Hamburg,Chicago,DHL,Air,2024-08-25,2024-08-29,4,6,At Port,4517.26,5,0,Rain,2.46,2,6,Natural Disaster,10.04,0.908,0.279,0.32,1.0,1,11.5
+SHP100323,Hamburg,New York,DB Schenker,Sea,2024-09-11,2024-10-03,22,17,Delayed,1356.76,4,0,Rain,1.71,5,4,Natural Disaster,10.06,0.867,0.339,0.27,1.0,1,60.0
+SHP100324,Mumbai,New York,XPO Logistics,Sea,2023-10-11,2023-11-11,31,36,At Port,4051.34,1,0,Fog,3.75,5,3,Natural Disaster,10.14,0.84,0.208,0.41,1.0,1,37.8
+SHP100325,Mumbai,New York,FedEx,Air,2023-12-04,2023-12-09,5,7,In Transit,4720.27,2,0,Rain,1.8,1,8,Equipment Failure,5.9,0.929,0.184,0.15,0.6541,1,15.0
+SHP100326,Shanghai,London,Maersk,Rail,2023-08-13,2023-08-24,11,0,Customs Hold,3585.05,2,0,Rain,2.17,3,6,Natural Disaster,10.06,0.827,0.333,0.45,1.0,1,7.3
+SHP100327,Hamburg,Tokyo,UPS,Air,2024-03-11,2024-03-14,3,4,Out for Delivery,4093.92,5,0,Fog,4.31,2,1,None,0.11,0.907,0.388,0.42,0.924,1,87.1
+SHP100328,Mumbai,New York,UPS,Air,2023-10-28,2023-11-02,5,1,In Transit,1686.91,3,1,Fog,3.95,2,4,Natural Disaster,9.87,0.897,0.378,0.14,0.9063,1,71.3
+SHP100329,Dubai,Sydney,XPO Logistics,Road,2024-08-04,2024-08-14,10,5,Delayed,4223.94,3,0,Storm,7.97,9,9,Natural Disaster,9.72,0.813,0.271,0.13,1.0,1,47.0
+SHP100330,Hamburg,Chicago,FedEx,Sea,2023-08-22,2023-09-22,31,22,Customs Hold,2907.88,5,0,Storm,7.69,5,7,Port Strike,9.07,0.923,0.033,0.34,1.0,1,65.7
+SHP100331,Rotterdam,London,Maersk,Air,2023-08-28,2023-09-01,4,2,In Transit,2500.11,2,0,Blizzard,9.3,2,7,Traffic Jam,3.58,0.843,0.044,0.43,0.9279,1,40.4
+SHP100332,Dubai,Chicago,DB Schenker,Air,2023-05-21,2023-05-25,4,3,At Port,2632.99,2,1,Rain,1.62,3,1,None,0.33,0.868,0.037,0.12,0.4386,0,0.0
+SHP100333,Mumbai,Tokyo,DB Schenker,Road,2024-08-02,2024-08-09,7,2,Delayed,783.19,5,0,Clear,0.0,7,9,Traffic Jam,4.22,0.896,0.291,0.12,0.679,1,47.9
+SHP100334,Mumbai,London,DHL,Air,2024-04-11,2024-04-15,4,5,Customs Hold,4951.13,5,0,Blizzard,9.36,2,5,Equipment Failure,5.62,0.871,0.18,0.37,1.0,1,77.9
+SHP100335,Dubai,Singapore,Maersk,Road,2024-05-20,2024-05-29,9,11,Customs Hold,1318.32,3,0,Fog,3.54,9,4,Port Strike,8.95,0.852,0.249,0.15,1.0,1,13.8
+SHP100336,Shanghai,Singapore,UPS,Sea,2024-04-13,2024-05-09,26,21,Out for Delivery,2453.09,3,0,Rain,2.36,4,8,Natural Disaster,10.04,0.911,0.048,0.43,0.9049,1,10.5
+SHP100337,Mumbai,Tokyo,XPO Logistics,Road,2024-08-02,2024-08-09,7,7,Customs Hold,4597.45,4,0,Rain,2.23,6,2,None,0.18,0.838,0.203,0.44,0.9908,1,80.6
+SHP100338,Shanghai,Tokyo,Maersk,Road,2023-02-14,2023-02-18,4,0,Delayed,2577.32,2,0,Heavy Rain,5.1,6,7,Natural Disaster,10.35,0.834,0.285,0.29,1.0,1,21.4
+SHP100339,Shanghai,Chicago,XPO Logistics,Rail,2024-11-01,2024-11-13,12,5,Customs Hold,1120.15,2,0,Fog,4.44,4,6,None,0.0,0.843,0.24,0.23,0.7472,1,41.2
+SHP100340,Hamburg,Singapore,FedEx,Sea,2023-05-01,2023-05-22,21,5,Delayed,3100.75,1,0,Fog,4.04,6,4,Natural Disaster,9.87,0.932,0.074,0.41,0.9364,1,8.7
+SHP100341,Los Angeles,Chicago,UPS,Air,2023-09-29,2023-10-01,2,7,At Port,1392.39,1,0,Heavy Rain,4.85,3,10,None,0.4,0.896,0.072,0.35,1.0,1,54.8
+SHP100342,Rotterdam,London,XPO Logistics,Rail,2023-08-12,2023-08-19,7,3,Out for Delivery,4721.66,5,0,Fog,3.86,2,9,Traffic Jam,4.25,0.82,0.077,0.37,0.8997,1,45.7
+SHP100343,Hamburg,Sydney,UPS,Rail,2023-06-16,2023-06-30,14,17,Customs Hold,4850.2,2,0,Rain,1.98,4,2,Traffic Jam,3.52,0.904,0.394,0.22,0.8608,1,5.5
+SHP100344,Dubai,New York,DB Schenker,Air,2023-10-30,2023-11-02,3,8,In Transit,2704.97,5,0,Clear,0.21,1,6,Natural Disaster,10.2,0.855,0.109,0.4,1.0,1,51.3
+SHP100345,Los Angeles,Chicago,DHL,Sea,2023-03-12,2023-04-03,22,16,Customs Hold,1611.03,3,0,Blizzard,9.45,4,7,None,0.0,0.896,0.101,0.22,0.7902,1,62.2
+SHP100346,Shanghai,Chicago,Maersk,Rail,2024-06-18,2024-06-25,7,9,Out for Delivery,4408.25,2,0,Snow,5.82,3,3,Natural Disaster,9.51,0.843,0.21,0.17,1.0,1,64.0
+SHP100347,Dubai,Chicago,UPS,Rail,2023-12-18,2023-12-29,11,14,At Port,494.09,5,0,Fog,4.2,2,1,Equipment Failure,5.82,0.878,0.021,0.33,0.8261,1,69.7
+SHP100348,Rotterdam,Tokyo,UPS,Road,2023-04-18,2023-04-26,8,11,Customs Hold,103.68,3,1,Heavy Rain,4.93,8,1,Traffic Jam,4.34,0.936,0.066,0.14,0.7035,1,46.2
+SHP100349,Rotterdam,Chicago,FedEx,Road,2024-04-20,2024-04-29,9,4,In Transit,2313.17,5,0,Fog,3.53,9,7,Traffic Jam,3.93,0.919,0.304,0.2,0.8886,1,16.9
+SHP100350,Dubai,London,DB Schenker,Sea,2023-07-16,2023-08-04,19,19,In Transit,533.16,4,0,Clear,0.0,4,2,Port Strike,9.12,0.843,0.163,0.34,1.0,1,44.4
+SHP100351,Shanghai,Singapore,XPO Logistics,Air,2023-05-23,2023-05-28,5,9,In Transit,3948.75,2,0,Fog,4.18,1,3,None,0.0,0.816,0.175,0.14,0.6626,1,23.2
+SHP100352,Shanghai,Singapore,FedEx,Sea,2024-07-25,2024-08-13,19,17,In Transit,2032.36,1,0,Blizzard,8.6,6,4,Port Strike,9.44,0.918,0.266,0.44,1.0,1,69.3
+SHP100353,Los Angeles,Chicago,DHL,Air,2024-07-29,2024-08-02,4,1,Customs Hold,3212.21,1,0,Storm,8.16,3,1,Equipment Failure,6.18,0.905,0.275,0.22,0.8569,1,74.4
+SHP100354,Mumbai,London,XPO Logistics,Sea,2023-08-20,2023-09-13,24,4,Delayed,476.86,2,0,Heavy Rain,5.26,5,3,Traffic Jam,4.06,0.813,0.088,0.14,0.711,1,30.5
+SHP100355,Hamburg,Singapore,DB Schenker,Rail,2023-07-01,2023-07-08,7,12,Customs Hold,2898.74,3,1,Clear,0.44,2,1,None,0.0,0.883,0.072,0.22,0.6038,1,10.1
+SHP100356,Hamburg,London,FedEx,Road,2023-03-16,2023-03-19,3,6,Customs Hold,1611.15,2,0,Rain,1.73,7,4,None,0.0,0.895,0.035,0.1,0.6196,1,31.8
+SHP100357,Rotterdam,Sydney,UPS,Sea,2024-01-21,2024-02-16,26,31,In Transit,3016.75,5,1,Heavy Rain,4.96,6,10,Port Strike,8.87,0.91,0.344,0.16,1.0,1,43.1
+SHP100358,Shanghai,New York,DB Schenker,Air,2024-08-16,2024-08-21,5,3,Out for Delivery,965.36,3,1,Snow,5.75,1,2,Equipment Failure,5.69,0.863,0.232,0.35,1.0,1,63.7
+SHP100359,Mumbai,London,DB Schenker,Air,2023-08-16,2023-08-18,2,1,Delayed,2527.25,2,1,Rain,2.11,4,6,Port Strike,9.05,0.887,0.272,0.44,1.0,1,6.8
+SHP100360,Rotterdam,Tokyo,Maersk,Sea,2024-08-23,2024-09-17,25,21,Customs Hold,2240.59,5,0,Rain,1.75,4,4,Port Strike,9.35,0.875,0.105,0.34,1.0,1,90.4
+SHP100361,Hamburg,Sydney,Maersk,Rail,2023-07-15,2023-07-29,14,1,Delayed,4973.36,2,0,Clear,0.26,4,2,Traffic Jam,4.46,0.821,0.372,0.11,0.725,1,62.4
+SHP100362,Mumbai,Tokyo,DHL,Road,2024-10-04,2024-10-08,4,7,Delayed,3252.55,4,0,Fog,4.35,9,9,Traffic Jam,3.92,0.895,0.178,0.11,0.8348,1,62.8
+SHP100363,Los Angeles,London,UPS,Air,2024-11-04,2024-11-07,3,8,At Port,3385.01,2,0,Heavy Rain,4.68,1,6,Port Strike,9.4,0.906,0.215,0.18,1.0,1,60.2
+SHP100364,Los Angeles,Sydney,UPS,Road,2024-06-06,2024-06-12,6,5,Customs Hold,1178.02,5,0,Heavy Rain,5.14,9,6,Equipment Failure,6.13,0.945,0.14,0.2,0.879,1,7.5
+SHP100365,Dubai,New York,DHL,Air,2023-06-08,2023-06-11,3,0,Delayed,3589.33,2,0,Heavy Rain,5.29,2,10,Traffic Jam,4.34,0.88,0.399,0.25,0.95,1,53.8
+SHP100366,Rotterdam,Tokyo,XPO Logistics,Air,2024-01-17,2024-01-22,5,4,In Transit,203.51,4,0,Blizzard,9.23,1,2,Natural Disaster,9.69,0.865,0.288,0.17,1.0,1,13.6
+SHP100367,Mumbai,Chicago,DB Schenker,Air,2023-07-13,2023-07-17,4,1,Delayed,3535.14,2,0,Heavy Rain,4.79,3,4,None,0.0,0.905,0.219,0.27,0.6183,1,23.9
+SHP100368,Rotterdam,Tokyo,FedEx,Air,2024-10-31,2024-11-02,2,6,Customs Hold,4960.16,3,0,Heavy Rain,5.05,3,2,Natural Disaster,9.85,0.899,0.145,0.11,1.0,1,75.0
+SHP100369,Rotterdam,Chicago,DB Schenker,Sea,2023-01-08,2023-02-06,29,31,Out for Delivery,2328.65,1,0,Snow,5.9,3,8,None,0.0,0.868,0.052,0.2,0.5789,1,43.3
+SHP100370,Mumbai,New York,XPO Logistics,Sea,2023-12-09,2023-12-28,19,1,At Port,4554.07,1,0,Fog,4.37,5,2,Port Strike,9.09,0.827,0.163,0.14,0.8789,1,46.0
+SHP100371,Rotterdam,Sydney,XPO Logistics,Air,2023-05-11,2023-05-14,3,3,In Transit,660.8,1,0,Fog,3.65,4,10,Port Strike,9.47,0.814,0.354,0.11,0.9659,1,77.2
+SHP100372,Dubai,Singapore,DB Schenker,Sea,2023-04-17,2023-05-17,30,10,Out for Delivery,1821.35,4,0,Rain,1.56,4,4,Equipment Failure,6.44,0.845,0.307,0.15,0.756,1,27.3
+SHP100373,Rotterdam,London,FedEx,Rail,2024-01-10,2024-01-18,8,9,In Transit,1837.09,5,0,Fog,4.41,4,4,Traffic Jam,4.14,0.935,0.176,0.19,0.6994,1,67.0
+SHP100374,Mumbai,New York,Maersk,Sea,2023-06-11,2023-07-16,35,7,Delayed,1881.89,5,0,Storm,7.61,4,10,Port Strike,9.24,0.846,0.161,0.22,1.0,1,30.3
+SHP100375,Shanghai,Tokyo,DB Schenker,Road,2023-01-05,2023-01-11,6,6,In Transit,4871.53,3,1,Heavy Rain,5.11,8,10,Port Strike,9.34,0.861,0.173,0.31,1.0,1,58.5
+SHP100376,Mumbai,London,DHL,Road,2023-07-19,2023-07-22,3,3,Customs Hold,4729.55,4,0,Rain,2.28,8,9,Equipment Failure,5.53,0.925,0.216,0.13,0.816,1,58.4
+SHP100377,Shanghai,New York,DB Schenker,Rail,2023-05-18,2023-05-29,11,5,At Port,609.75,4,0,Snow,5.98,2,4,Natural Disaster,10.25,0.844,0.193,0.35,1.0,1,54.4
+SHP100378,Los Angeles,Sydney,Maersk,Air,2024-07-02,2024-07-05,3,4,In Transit,3364.82,5,1,Blizzard,8.68,3,3,Traffic Jam,4.01,0.855,0.28,0.2,0.9936,1,79.1
+SHP100379,Shanghai,Tokyo,FedEx,Air,2023-05-14,2023-05-19,5,8,Out for Delivery,3823.18,1,0,Blizzard,8.92,1,1,None,0.31,0.918,0.13,0.41,0.93,1,53.2
+SHP100380,Shanghai,Sydney,FedEx,Sea,2023-04-23,2023-05-15,22,26,Customs Hold,2564.32,2,1,Clear,0.02,3,10,None,0.0,0.935,0.102,0.44,0.7606,1,70.9
+SHP100381,Rotterdam,London,Maersk,Rail,2023-05-26,2023-06-04,9,11,Out for Delivery,2226.69,4,0,Heavy Rain,4.55,3,7,Port Strike,9.32,0.854,0.15,0.44,1.0,1,24.7
+SHP100382,Hamburg,New York,XPO Logistics,Sea,2024-08-13,2024-09-08,26,31,Customs Hold,2700.2,3,0,Storm,8.0,4,4,Natural Disaster,10.37,0.835,0.378,0.26,1.0,1,57.4
+SHP100383,Shanghai,Singapore,DB Schenker,Road,2023-06-23,2023-07-02,9,10,Customs Hold,2603.99,3,0,Rain,1.68,9,6,Traffic Jam,3.5,0.852,0.337,0.38,1.0,1,92.6
+SHP100384,Dubai,London,DB Schenker,Sea,2024-08-16,2024-09-20,35,34,In Transit,2738.35,4,0,Blizzard,8.66,5,3,Port Strike,9.23,0.865,0.189,0.24,1.0,1,40.8
+SHP100385,Shanghai,Chicago,Maersk,Rail,2023-01-25,2023-02-05,11,3,Out for Delivery,2804.67,2,1,Rain,1.52,4,2,None,0.0,0.828,0.25,0.43,0.8539,1,32.6
+SHP100386,Los Angeles,London,XPO Logistics,Air,2024-10-01,2024-10-04,3,3,In Transit,4654.94,2,0,Fog,4.24,1,5,Port Strike,9.04,0.811,0.255,0.14,0.9628,1,25.4
+SHP100387,Los Angeles,Chicago,XPO Logistics,Sea,2023-10-18,2023-11-18,31,34,At Port,2814.11,3,1,Rain,1.93,3,8,Equipment Failure,5.89,0.836,0.073,0.11,0.7572,1,8.6
+SHP100388,Dubai,Singapore,Maersk,Rail,2024-11-13,2024-11-20,7,6,At Port,7.3,5,0,Fog,3.58,2,8,Traffic Jam,3.86,0.825,0.319,0.15,0.8299,1,64.5
+SHP100389,Hamburg,New York,UPS,Road,2023-09-20,2023-09-27,7,8,Delayed,1669.98,3,0,Rain,2.33,9,1,None,0.0,0.925,0.206,0.19,0.7515,1,6.6
+SHP100390,Los Angeles,New York,FedEx,Air,2024-01-02,2024-01-07,5,5,Customs Hold,1784.49,2,0,Storm,8.4,1,2,Traffic Jam,3.6,0.933,0.282,0.26,0.8756,1,67.9
+SHP100391,Mumbai,Tokyo,XPO Logistics,Air,2024-05-10,2024-05-13,3,2,In Transit,4644.49,1,0,Snow,6.06,2,2,Port Strike,9.01,0.863,0.077,0.14,0.9297,1,63.1
+SHP100392,Los Angeles,Tokyo,FedEx,Sea,2023-08-07,2023-09-11,35,39,In Transit,635.8,3,0,Storm,7.75,3,9,Traffic Jam,4.0,0.894,0.336,0.25,1.0,1,74.3
+SHP100393,Dubai,Sydney,DB Schenker,Road,2024-08-30,2024-09-05,6,4,Customs Hold,4883.36,3,1,Snow,6.31,6,3,Natural Disaster,9.94,0.863,0.32,0.4,1.0,1,85.9
+SHP100394,Los Angeles,Sydney,XPO Logistics,Rail,2023-04-28,2023-05-06,8,2,In Transit,1043.8,3,0,Snow,5.97,3,7,Equipment Failure,6.37,0.827,0.393,0.37,1.0,1,92.8
+SHP100395,Rotterdam,Chicago,Maersk,Air,2024-10-08,2024-10-13,5,2,Delayed,1424.2,3,0,Clear,0.0,4,8,Natural Disaster,9.85,0.872,0.215,0.2,0.8484,1,70.9
+SHP100396,Los Angeles,Tokyo,DHL,Sea,2024-03-21,2024-04-09,19,7,At Port,434.41,3,1,Clear,0.26,3,6,Equipment Failure,6.07,0.88,0.055,0.25,0.6133,1,46.4
+SHP100397,Dubai,Chicago,DB Schenker,Road,2024-09-01,2024-09-11,10,13,At Port,380.83,3,0,Storm,7.66,6,10,Traffic Jam,4.26,0.893,0.046,0.38,1.0,1,46.3
+SHP100398,Dubai,Chicago,DHL,Sea,2024-01-15,2024-02-11,27,17,Delayed,466.12,3,0,Heavy Rain,4.81,6,2,None,0.0,0.89,0.194,0.25,0.7782,1,73.8
+SHP100399,Hamburg,London,UPS,Rail,2024-01-07,2024-01-22,15,0,Customs Hold,316.63,5,0,Storm,7.66,3,4,Natural Disaster,9.87,0.921,0.038,0.1,0.6658,1,43.6
+SHP100400,Rotterdam,Singapore,XPO Logistics,Air,2023-05-26,2023-05-31,5,9,In Transit,1452.41,1,0,Heavy Rain,4.8,3,7,Equipment Failure,6.22,0.809,0.089,0.15,0.8986,1,14.2
+SHP100401,Mumbai,New York,FedEx,Road,2023-12-29,2024-01-06,8,0,In Transit,159.27,1,0,Snow,6.46,8,4,Port Strike,8.83,0.924,0.398,0.4,1.0,1,23.5
+SHP100402,Hamburg,Tokyo,UPS,Air,2024-07-18,2024-07-23,5,7,Customs Hold,183.2,5,1,Blizzard,8.7,3,3,Port Strike,8.56,0.936,0.199,0.29,1.0,1,58.6
+SHP100403,Dubai,Tokyo,DB Schenker,Sea,2023-04-09,2023-05-08,29,20,Out for Delivery,2427.79,5,0,Clear,0.07,6,5,Traffic Jam,4.19,0.86,0.078,0.15,0.6247,1,36.2
+SHP100404,Hamburg,Tokyo,Maersk,Sea,2024-02-12,2024-03-13,30,4,At Port,4646.72,2,0,Heavy Rain,5.35,6,5,Equipment Failure,5.67,0.864,0.292,0.17,0.8352,1,53.2
+SHP100405,Mumbai,London,UPS,Sea,2024-03-19,2024-04-22,34,35,In Transit,4273.15,5,0,Storm,8.37,6,5,Port Strike,9.47,0.89,0.052,0.4,1.0,1,88.9
+SHP100406,Los Angeles,New York,DHL,Road,2023-12-05,2023-12-08,3,8,Out for Delivery,3551.02,2,1,Storm,8.32,6,10,Traffic Jam,4.07,0.885,0.058,0.3,1.0,1,63.5
+SHP100407,Los Angeles,Tokyo,FedEx,Road,2023-08-25,2023-08-30,5,1,In Transit,3247.09,1,1,Storm,8.33,8,8,Natural Disaster,10.32,0.922,0.355,0.25,1.0,1,71.4
+SHP100408,Rotterdam,London,FedEx,Sea,2023-03-06,2023-04-01,26,27,At Port,3965.23,5,0,Storm,8.31,4,10,Equipment Failure,6.28,0.946,0.066,0.25,0.8307,1,36.9
+SHP100409,Shanghai,London,XPO Logistics,Road,2023-10-13,2023-10-20,7,1,At Port,2774.32,3,0,Rain,1.91,6,2,Port Strike,9.3,0.806,0.22,0.42,1.0,1,81.3
+SHP100410,Los Angeles,Sydney,UPS,Rail,2023-01-17,2023-01-31,14,10,Delayed,2166.98,2,0,Fog,4.15,4,3,Port Strike,8.86,0.911,0.394,0.36,1.0,1,16.2
+SHP100411,Dubai,Tokyo,FedEx,Rail,2024-07-05,2024-07-15,10,7,At Port,858.99,2,0,Blizzard,8.81,5,6,Port Strike,9.21,0.916,0.24,0.38,1.0,1,46.7
+SHP100412,Mumbai,New York,XPO Logistics,Air,2024-04-14,2024-04-18,4,7,Delayed,3780.05,4,1,Rain,1.52,4,10,Equipment Failure,6.04,0.836,0.305,0.26,1.0,1,35.2
+SHP100413,Mumbai,Chicago,UPS,Sea,2024-08-02,2024-08-29,27,4,Out for Delivery,1237.35,5,1,Clear,0.0,3,6,None,0.0,0.936,0.214,0.24,0.4712,0,0.0
+SHP100414,Rotterdam,London,DB Schenker,Air,2023-01-21,2023-01-25,4,0,Out for Delivery,4146.85,1,1,Rain,2.3,4,6,Natural Disaster,9.5,0.886,0.069,0.15,0.6948,1,62.3
+SHP100415,Shanghai,London,DHL,Road,2024-07-21,2024-07-26,5,7,Delayed,4947.52,2,0,Storm,8.02,6,1,Natural Disaster,10.28,0.868,0.333,0.24,1.0,1,46.2
+SHP100416,Hamburg,Chicago,UPS,Road,2024-12-01,2024-12-09,8,12,In Transit,2096.53,3,0,Blizzard,8.91,6,1,None,0.02,0.936,0.174,0.15,0.7896,1,54.8
+SHP100417,Rotterdam,Sydney,DB Schenker,Air,2023-04-07,2023-04-11,4,4,Customs Hold,4648.42,5,0,Heavy Rain,5.14,4,7,Equipment Failure,6.38,0.863,0.297,0.14,0.9796,1,22.3
+SHP100418,Dubai,London,FedEx,Rail,2023-05-10,2023-05-25,15,9,At Port,3482.52,1,0,Snow,6.16,4,6,Port Strike,9.07,0.905,0.057,0.14,0.7612,1,36.8
+SHP100419,Dubai,Sydney,FedEx,Rail,2023-05-05,2023-05-19,14,5,Delayed,1881.56,4,1,Clear,0.0,5,8,Equipment Failure,5.76,0.895,0.195,0.42,0.8641,1,75.9
+SHP100420,Hamburg,Chicago,XPO Logistics,Sea,2023-11-21,2023-12-09,18,14,Out for Delivery,2184.78,4,0,Rain,2.48,5,3,Port Strike,9.38,0.808,0.281,0.36,1.0,1,8.0
+SHP100421,Los Angeles,Singapore,FedEx,Road,2024-06-12,2024-06-16,4,7,Customs Hold,4348.52,5,0,Snow,5.74,7,7,Equipment Failure,6.22,0.894,0.379,0.34,1.0,1,23.8
+SHP100422,Los Angeles,Sydney,Maersk,Air,2024-02-19,2024-02-22,3,7,At Port,4084.42,3,0,Storm,7.61,1,7,Traffic Jam,4.21,0.835,0.052,0.38,1.0,1,91.6
+SHP100423,Rotterdam,London,DB Schenker,Sea,2023-10-18,2023-11-13,26,24,In Transit,3965.58,5,1,Storm,7.69,3,10,Natural Disaster,10.26,0.89,0.116,0.35,1.0,1,70.0
+SHP100424,Mumbai,Tokyo,DB Schenker,Rail,2023-07-25,2023-08-02,8,12,At Port,2555.46,3,0,Clear,0.0,4,5,Traffic Jam,3.94,0.865,0.2,0.23,0.8601,1,27.8
+SHP100425,Los Angeles,Tokyo,FedEx,Air,2024-07-05,2024-07-10,5,4,Customs Hold,3740.25,2,0,Blizzard,8.89,4,4,Port Strike,8.85,0.909,0.112,0.25,1.0,1,26.1
+SHP100426,Rotterdam,Singapore,DB Schenker,Sea,2024-10-29,2024-11-20,22,10,Delayed,4709.87,4,0,Heavy Rain,4.7,6,4,None,0.42,0.813,0.207,0.4,0.93,1,73.5
+SHP100427,Shanghai,Singapore,DHL,Air,2024-04-24,2024-04-27,3,3,At Port,4422.16,4,0,Storm,7.93,2,2,None,0.09,0.895,0.291,0.26,0.7977,1,13.2
+SHP100428,Los Angeles,New York,FedEx,Air,2023-04-09,2023-04-11,2,3,At Port,3942.59,2,0,Heavy Rain,4.64,2,8,Port Strike,9.45,0.901,0.231,0.37,1.0,1,24.8
+SHP100429,Rotterdam,London,UPS,Sea,2023-05-10,2023-06-13,34,4,At Port,4520.6,5,0,Rain,1.51,4,6,None,0.47,0.91,0.06,0.17,0.3417,0,0.0
+SHP100430,Shanghai,Chicago,FedEx,Road,2024-11-16,2024-11-26,10,5,At Port,2259.31,4,1,Storm,7.85,8,6,Equipment Failure,5.69,0.923,0.313,0.15,0.9417,1,18.9
+SHP100431,Rotterdam,Sydney,FedEx,Road,2023-01-24,2023-01-27,3,4,At Port,3035.53,3,0,Heavy Rain,4.92,7,10,Traffic Jam,4.28,0.935,0.174,0.15,0.8174,1,42.3
+SHP100432,Dubai,Sydney,FedEx,Sea,2024-02-01,2024-02-27,26,26,Customs Hold,3807.1,2,0,Snow,6.2,3,7,None,0.23,0.938,0.037,0.43,0.7542,1,31.5
+SHP100433,Mumbai,Chicago,Maersk,Rail,2024-09-09,2024-09-20,11,15,Out for Delivery,2291.13,4,1,Fog,3.83,5,4,Traffic Jam,3.53,0.815,0.399,0.15,0.98,1,32.6
+SHP100434,Mumbai,Sydney,DHL,Road,2023-11-06,2023-11-15,9,4,Delayed,726.11,2,1,Snow,5.97,8,8,Port Strike,9.43,0.866,0.303,0.3,1.0,1,29.5
+SHP100435,Hamburg,Tokyo,FedEx,Rail,2024-07-11,2024-07-20,9,12,In Transit,1445.1,1,0,Blizzard,8.73,3,10,Traffic Jam,4.04,0.927,0.27,0.29,1.0,1,24.1
+SHP100436,Hamburg,New York,XPO Logistics,Sea,2024-07-01,2024-08-01,31,8,Customs Hold,4271.92,2,0,Clear,0.08,5,9,Equipment Failure,6.09,0.826,0.276,0.38,0.9564,1,63.1
+SHP100437,Los Angeles,Singapore,DB Schenker,Air,2024-03-28,2024-03-31,3,8,In Transit,3536.37,5,0,Blizzard,8.77,4,10,Equipment Failure,6.2,0.874,0.217,0.12,1.0,1,7.7
+SHP100438,Shanghai,Chicago,XPO Logistics,Air,2024-02-28,2024-03-04,5,1,Customs Hold,2726.3,5,0,Rain,1.68,3,1,Natural Disaster,10.26,0.841,0.281,0.24,0.9779,1,25.0
+SHP100439,Los Angeles,Singapore,FedEx,Road,2023-02-26,2023-03-08,10,1,Delayed,3321.7,3,1,Storm,7.52,7,5,Port Strike,9.34,0.921,0.294,0.16,1.0,1,21.4
+SHP100440,Shanghai,London,DB Schenker,Air,2023-03-26,2023-03-31,5,2,At Port,3748.99,2,0,Heavy Rain,5.35,2,5,None,0.15,0.86,0.12,0.15,0.5115,1,43.8
+SHP100441,Los Angeles,Chicago,UPS,Sea,2024-10-09,2024-11-13,35,13,Out for Delivery,3988.33,2,0,Blizzard,8.5,6,7,None,0.45,0.887,0.295,0.12,0.785,1,32.7
+SHP100442,Mumbai,Tokyo,XPO Logistics,Rail,2024-07-02,2024-07-10,8,13,Customs Hold,1373.01,2,0,Clear,0.0,2,2,Equipment Failure,5.61,0.794,0.392,0.12,0.8896,1,32.3
+SHP100443,Rotterdam,New York,DHL,Sea,2023-01-26,2023-02-23,28,3,Customs Hold,2462.32,4,1,Rain,2.47,4,6,Traffic Jam,3.62,0.902,0.378,0.34,0.804,1,72.5
+SHP100444,Hamburg,New York,DB Schenker,Sea,2024-09-11,2024-10-03,22,12,Out for Delivery,3816.84,2,0,Storm,8.46,3,6,Equipment Failure,6.43,0.882,0.3,0.31,1.0,1,71.3
+SHP100445,Rotterdam,Chicago,XPO Logistics,Sea,2023-08-05,2023-09-01,27,29,In Transit,2370.68,1,0,Heavy Rain,5.32,6,8,Port Strike,8.73,0.837,0.324,0.2,1.0,1,25.7
+SHP100446,Shanghai,New York,DB Schenker,Road,2024-01-15,2024-01-19,4,5,In Transit,1392.99,2,0,Heavy Rain,4.81,8,10,None,0.09,0.878,0.066,0.35,0.872,1,75.2
+SHP100447,Los Angeles,Tokyo,DHL,Road,2023-02-12,2023-02-18,6,1,Customs Hold,2644.66,3,0,Rain,2.46,6,4,Natural Disaster,10.27,0.916,0.192,0.25,0.9248,1,19.7
+SHP100448,Mumbai,New York,DB Schenker,Rail,2023-05-18,2023-05-29,11,13,Delayed,4313.03,3,0,Blizzard,8.53,4,7,Traffic Jam,3.89,0.854,0.263,0.32,1.0,1,52.4
+SHP100449,Shanghai,New York,XPO Logistics,Sea,2024-09-03,2024-10-08,35,5,Delayed,4854.4,3,0,Blizzard,9.42,5,9,Traffic Jam,4.15,0.875,0.263,0.35,1.0,1,45.1
+SHP100450,Rotterdam,Tokyo,DHL,Rail,2024-05-05,2024-05-18,13,2,In Transit,3547.94,5,1,Fog,4.02,2,4,Port Strike,9.31,0.886,0.212,0.22,0.8528,1,29.7
+SHP100451,Mumbai,Tokyo,DB Schenker,Air,2023-04-06,2023-04-11,5,10,Out for Delivery,1189.86,4,0,Storm,8.07,4,2,Natural Disaster,9.5,0.858,0.17,0.24,1.0,1,17.9
+SHP100452,Los Angeles,New York,UPS,Road,2023-07-04,2023-07-08,4,2,Out for Delivery,1135.59,2,1,Heavy Rain,5.41,8,6,Natural Disaster,9.68,0.912,0.268,0.41,1.0,1,35.6
+SHP100453,Hamburg,Tokyo,FedEx,Air,2024-02-17,2024-02-20,3,1,In Transit,2038.22,1,1,Clear,0.0,4,10,Equipment Failure,5.88,0.935,0.161,0.33,0.7025,1,56.0
+SHP100454,Dubai,Chicago,DB Schenker,Sea,2023-09-10,2023-10-07,27,4,In Transit,1910.63,3,0,Storm,7.9,5,4,None,0.38,0.853,0.162,0.38,0.7877,1,59.8
+SHP100455,Mumbai,London,DHL,Sea,2023-06-07,2023-07-02,25,22,At Port,4326.26,3,0,Rain,1.82,3,8,Natural Disaster,9.88,0.894,0.278,0.28,0.9197,1,56.8
+SHP100456,Rotterdam,New York,FedEx,Sea,2024-07-06,2024-07-28,22,17,Customs Hold,4305.98,1,1,Fog,4.39,3,1,Traffic Jam,3.83,0.915,0.029,0.4,0.9265,1,20.1
+SHP100457,Shanghai,New York,Maersk,Rail,2023-06-05,2023-06-17,12,17,Delayed,2798.6,4,1,Fog,3.54,3,9,Natural Disaster,9.77,0.846,0.228,0.35,1.0,1,23.3
+SHP100458,Los Angeles,Chicago,UPS,Rail,2024-06-01,2024-06-14,13,7,Delayed,2787.58,4,1,Storm,8.2,5,3,None,0.0,0.93,0.131,0.23,0.6846,1,59.4
+SHP100459,Los Angeles,Chicago,DB Schenker,Sea,2024-01-17,2024-02-18,32,24,Delayed,3399.81,4,1,Clear,0.0,5,5,Port Strike,9.45,0.878,0.129,0.42,0.9375,1,8.4
+SHP100460,Dubai,Tokyo,Maersk,Road,2023-11-13,2023-11-22,9,0,In Transit,17.51,5,0,Storm,8.18,7,2,Equipment Failure,6.46,0.857,0.068,0.29,0.9788,1,45.6
+SHP100461,Hamburg,Chicago,DHL,Sea,2023-09-09,2023-10-03,24,8,At Port,2888.31,3,0,Heavy Rain,4.81,6,7,Traffic Jam,3.69,0.864,0.077,0.3,0.8584,1,13.8
+SHP100462,Mumbai,New York,DB Schenker,Air,2024-10-21,2024-10-25,4,8,Delayed,1664.61,3,0,Clear,0.39,3,1,Traffic Jam,4.07,0.861,0.16,0.22,0.7791,1,45.2
+SHP100463,Rotterdam,Tokyo,UPS,Road,2023-12-14,2023-12-20,6,6,Delayed,2393.88,5,0,Storm,7.8,6,3,Equipment Failure,5.93,0.933,0.173,0.14,0.8402,1,32.8
+SHP100464,Dubai,Singapore,Maersk,Air,2024-07-20,2024-07-22,2,0,Delayed,3889.31,3,0,Heavy Rain,4.6,3,6,None,0.0,0.882,0.058,0.15,0.4199,0,0.0
+SHP100465,Dubai,Chicago,DHL,Sea,2024-02-27,2024-03-19,21,22,In Transit,3136.6,4,1,Rain,1.82,3,4,Traffic Jam,3.86,0.899,0.187,0.35,0.8365,1,78.0
+SHP100466,Hamburg,London,FedEx,Sea,2023-10-22,2023-11-19,28,0,At Port,4454.69,4,0,Blizzard,8.76,6,10,Natural Disaster,9.61,0.896,0.283,0.1,0.9554,1,91.0
+SHP100467,Mumbai,Singapore,UPS,Air,2024-09-11,2024-09-15,4,5,In Transit,3407.65,3,0,Blizzard,8.95,4,7,Natural Disaster,10.46,0.89,0.24,0.41,1.0,1,29.7
+SHP100468,Hamburg,London,FedEx,Air,2024-02-22,2024-02-24,2,2,Customs Hold,4994.95,4,1,Clear,0.1,2,5,Port Strike,9.0,0.907,0.07,0.1,0.5352,1,7.0
+SHP100469,Hamburg,New York,DHL,Air,2023-04-06,2023-04-10,4,1,Customs Hold,3057.01,3,0,Snow,6.47,3,8,Traffic Jam,4.35,0.904,0.217,0.24,0.8221,1,25.3
+SHP100470,Shanghai,Chicago,XPO Logistics,Road,2024-08-09,2024-08-17,8,12,At Port,4424.59,3,0,Clear,0.0,9,5,Port Strike,9.46,0.824,0.031,0.2,0.9706,1,61.0
+SHP100471,Rotterdam,Sydney,DHL,Sea,2024-08-23,2024-09-25,33,12,Out for Delivery,4400.81,1,1,Clear,0.0,5,6,Port Strike,8.96,0.896,0.187,0.44,0.9717,1,40.7
+SHP100472,Mumbai,Sydney,DHL,Rail,2024-10-22,2024-11-03,12,2,At Port,1600.21,1,0,Storm,7.63,4,1,None,0.23,0.897,0.045,0.3,0.6809,1,24.4
+SHP100473,Los Angeles,London,DB Schenker,Road,2023-04-28,2023-05-07,9,0,In Transit,569.88,4,0,Clear,0.35,6,7,Natural Disaster,9.76,0.861,0.173,0.29,0.8354,1,58.5
+SHP100474,Hamburg,Singapore,FedEx,Sea,2023-05-10,2023-05-29,19,6,Customs Hold,2830.39,4,0,Rain,1.85,6,7,None,0.42,0.929,0.335,0.27,0.7436,1,20.0
+SHP100475,Los Angeles,New York,DB Schenker,Rail,2023-03-29,2023-04-06,8,6,At Port,73.31,5,1,Storm,8.44,4,8,None,0.0,0.859,0.285,0.31,0.9121,1,70.5
+SHP100476,Rotterdam,New York,DB Schenker,Sea,2023-09-03,2023-09-25,22,2,Customs Hold,300.02,5,0,Storm,7.62,5,1,None,0.0,0.867,0.042,0.45,0.8429,1,65.5
+SHP100477,Rotterdam,London,XPO Logistics,Air,2024-06-10,2024-06-13,3,7,In Transit,3156.36,3,0,Blizzard,9.39,3,3,Traffic Jam,3.94,0.834,0.096,0.42,1.0,1,39.5
+SHP100478,Hamburg,New York,DHL,Sea,2023-11-23,2023-12-15,22,27,Customs Hold,4182.79,1,1,Storm,7.96,4,2,Port Strike,9.05,0.91,0.022,0.43,1.0,1,30.1
+SHP100479,Hamburg,Singapore,Maersk,Road,2023-07-31,2023-08-04,4,1,Out for Delivery,1782.48,1,0,Storm,7.54,9,7,Traffic Jam,4.02,0.851,0.369,0.22,1.0,1,38.9
+SHP100480,Hamburg,Chicago,UPS,Road,2024-06-01,2024-06-07,6,3,Customs Hold,3989.56,3,0,Snow,5.92,6,4,Equipment Failure,6.37,0.868,0.276,0.2,0.9951,1,78.3
+SHP100481,Mumbai,Singapore,FedEx,Sea,2024-06-14,2024-07-03,19,20,Out for Delivery,3502.17,1,0,Heavy Rain,5.07,6,3,Port Strike,8.99,0.924,0.305,0.18,1.0,1,63.5
+SHP100482,Hamburg,Tokyo,UPS,Sea,2024-06-19,2024-07-18,29,6,Out for Delivery,1266.2,3,0,Clear,0.0,3,4,Natural Disaster,10.29,0.917,0.157,0.23,0.7227,1,11.0
+SHP100483,Hamburg,Singapore,XPO Logistics,Air,2024-10-26,2024-10-29,3,8,Delayed,4531.28,5,1,Clear,0.0,3,10,Traffic Jam,3.69,0.835,0.185,0.38,1.0,1,16.5
+SHP100484,Dubai,New York,Maersk,Air,2023-06-11,2023-06-15,4,3,Out for Delivery,2430.65,3,1,Storm,7.92,3,5,Traffic Jam,4.1,0.827,0.127,0.3,0.9773,1,78.8
+SHP100485,Shanghai,Sydney,XPO Logistics,Rail,2024-08-26,2024-09-03,8,4,Delayed,4491.96,3,0,Snow,5.73,5,9,Traffic Jam,4.33,0.781,0.184,0.45,1.0,1,69.5
+SHP100486,Dubai,Chicago,Maersk,Air,2024-05-08,2024-05-10,2,1,Delayed,4599.04,5,0,Clear,0.16,2,7,None,0.0,0.842,0.106,0.33,0.5989,1,55.0
+SHP100487,Rotterdam,Singapore,FedEx,Sea,2024-04-02,2024-05-05,33,21,In Transit,3040.14,2,0,Snow,5.8,6,2,Port Strike,8.81,0.946,0.398,0.18,1.0,1,17.0
+SHP100488,Dubai,Singapore,FedEx,Sea,2024-11-05,2024-12-10,35,6,Customs Hold,4453.06,2,1,Heavy Rain,5.16,5,5,None,0.0,0.897,0.222,0.15,0.5985,1,8.8
+SHP100489,Hamburg,Tokyo,UPS,Road,2023-06-28,2023-07-03,5,3,Customs Hold,3778.59,4,0,Clear,0.4,8,9,None,0.0,0.903,0.111,0.34,0.6875,1,63.0
+SHP100490,Los Angeles,Chicago,XPO Logistics,Sea,2023-07-13,2023-08-12,30,27,At Port,1363.44,5,0,Fog,3.77,3,4,None,0.0,0.839,0.163,0.17,0.6944,1,65.9
+SHP100491,Hamburg,Singapore,UPS,Road,2023-07-18,2023-07-25,7,0,Customs Hold,107.19,3,0,Rain,1.9,9,9,None,0.2,0.93,0.26,0.44,0.7833,1,72.0
+SHP100492,Mumbai,Sydney,UPS,Road,2023-03-09,2023-03-13,4,2,Out for Delivery,2899.34,2,0,Blizzard,8.52,7,10,Traffic Jam,4.01,0.912,0.287,0.3,1.0,1,69.0
+SHP100493,Dubai,Chicago,FedEx,Rail,2023-01-04,2023-01-16,12,2,Customs Hold,1388.88,5,1,Heavy Rain,5.3,3,10,Port Strike,8.59,0.9,0.035,0.29,0.8602,1,24.1
+SHP100494,Dubai,Singapore,FedEx,Rail,2024-09-19,2024-10-01,12,13,At Port,1638.45,1,0,Rain,2.11,3,6,None,0.15,0.916,0.127,0.15,0.5559,1,3.4
+SHP100495,Shanghai,Chicago,UPS,Road,2024-11-17,2024-11-26,9,9,In Transit,4911.08,5,0,Heavy Rain,5.23,7,3,Port Strike,8.97,0.925,0.111,0.25,0.9724,1,82.2
+SHP100496,Mumbai,Singapore,FedEx,Road,2023-06-13,2023-06-20,7,2,In Transit,225.04,3,1,Rain,2.16,7,4,None,0.45,0.914,0.18,0.26,0.6423,1,45.5
+SHP100497,Mumbai,Sydney,FedEx,Air,2023-01-12,2023-01-14,2,7,Delayed,1711.7,1,0,Storm,8.05,2,6,Equipment Failure,6.43,0.897,0.293,0.3,1.0,1,71.3
+SHP100498,Dubai,Singapore,Maersk,Air,2024-10-05,2024-10-09,4,1,At Port,996.95,1,0,Heavy Rain,4.53,2,9,Port Strike,8.63,0.825,0.366,0.15,0.9045,1,13.2
+SHP100499,Shanghai,New York,FedEx,Air,2024-05-03,2024-05-07,4,9,Delayed,2421.76,4,0,Snow,6.17,1,6,Port Strike,9.0,0.909,0.02,0.35,0.9979,1,24.4

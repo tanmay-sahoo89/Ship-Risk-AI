@@ -1,0 +1,1 @@
+const I={LOW:"#10B981",MEDIUM:"#F59E0B",HIGH:"#F97316",CRITICAL:"#DC2626"};export{I as R};
